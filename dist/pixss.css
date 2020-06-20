@@ -23,6 +23,8 @@ body {
   font-size: 1.6em;
   font-weight: 400;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 .card {
@@ -65,11 +67,31 @@ body {
 
 .sidebar {
   position: fixed;
-  top: 0;
   left: 0;
-  width: 28rem;
-  min-height: 100vh;
   z-index: 8888;
+  min-width: 15rem;
+  min-height: 100vh;
+  background-color: #791f82;
+}
+
+.sidebar-header,
+.sidebar-item {
+  padding: 1rem 2rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidebar-item.active {
+  color: #791f82;
+  background-color: #ffffff;
+}
+
+.sidebar-item:hover {
+  background-color: #ffffffc9;
+}
+
+main {
+  margin-left: 20rem;
 }
 
 footer {
