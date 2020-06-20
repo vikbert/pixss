@@ -18,35 +18,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
     <link rel="stylesheet" href="../dist/pixss.min.css" />
-    <style>
-      div,
-      header,
-      nav,
-      main,
-      footer {
-        outline: 1px solid red;
-      }
-    </style>
+    <!-- to generate this style run `$ npm start` -->
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1 class="header">SIT CSS</h1>
-      </div>
-    </header>
-    <nav class="sidebar">
-      <ul>
-        <li>foo</li>
-        <li>foo</li>
-        <li>foo</li>
-        <li>foo</li>
-        <li>foo</li>
-        <li>foo</li>
-        <li>foo</li>
-        <li>foo</li>
-      </ul>
-    </nav>
     <main class="wrapper">
+      <section class="container" id="image">
+        <h1>SIT CSS</h1>
+      </section>
+
       <section class="container" id="typography">
         <h5 class="title">Typography</h5>
         <hr />
@@ -955,27 +934,6 @@
           </li>
         </ul>
       </section>
-
-      <footer class="footer">
-        <section class="container">
-          <p>
-            Designed with ♥ by
-            <a
-              target="blank"
-              href="https://twitter.com/cjpatoilo"
-              title="CJ Patoilo"
-              >CJ Patoilo</a
-            >. Licensed under the
-            <a
-              target="blank"
-              href="https://github.com/Pixss/Pixss#license"
-              title="MIT License"
-              >MIT License</a
-            >.
-          </p>
-        </section>
-      </footer>
     </main>
-    <footer></footer>
   </body>
 </html>

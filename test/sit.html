@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Xun Zhou" />
+    <meta
+      name="description"
+      content="SIT CSS provides a minimal setup of styles for a fast and clean starting point."
+    />
+    <title>SIT | A minimalist Schwarz IT CSS framework</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="../dist/pixss.min.css" />
+    <style>
+      div,
+      header,
+      nav,
+      main,
+      footer {
+        outline: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="row" id="login-form">
+        <div class="container flex-center">
+          <div class="card width-65">
+            <div class="card-headline text-center">
+              <h3>Login Form</h3>
+            </div>
+            <div class="card-content">
+              <form>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" />
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" />
+                <div class="text-center">
+                  <button class="my-0" type="submit">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-1" id="menu">
+        <div class="container flex-center">
+          <div class="menu">
+            <div class="menu-item">
+              profile
+            </div>
+            <div class="menu-item">
+              logout
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+
+// Utility
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// width, height
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.width-100
+  width: 100%
+.width-65
+  width: 65%
+.width-50
+  width: 50%
+.height-100
+  height: 100%
+.height-65
+  height: 65%
+.height-50
+  height: 50%
+
+// TEXT alignment
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.text-center
+  text-align: center
+
+// DIV
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.full-height
+  min-height: 100vh
+
+// Flex Box
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+// Others
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.rounded
+  border-radius: .4rem
+
+// Float
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.clearfix // Clear a float with .clearfix
+  &:after
+    clear: both
+    content: ' ' // The space content is one way to avoid an Opera bug.
+    display: table
+
+.float-left
+  float: left
+
+.float-right
+  float: right
