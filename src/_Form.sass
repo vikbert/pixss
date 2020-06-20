@@ -22,23 +22,23 @@ select
   -webkit-appearance: none // sass-lint:disable-line no-vendor-prefixes
   background-color: transparent
   border: .1rem solid $color-quaternary
-  border-radius: .4rem
   box-shadow: none
   box-sizing: inherit // Forced to replace inherit values of the normalize.css
   height: 3.8rem
   padding: .6rem 1.0rem .7rem // This vertically centers text on FF, ignored by Webkit
   width: 100%
+  font-size: 1.6rem
 
   &:focus
     border: .2rem solid $color-primary
     outline: 0
 
 select
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23' + str-slice(inspect($color-quaternary), 2) + '" d="M0,0l6,8l6-8"/></svg>') center right no-repeat
+  // background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23' + str-slice(inspect($color-quaternary), 2) + '" d="M0,0l6,8l6-8"/></svg>') center right no-repeat
   padding-right: 3.0rem
 
   &:focus
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23' + str-slice(inspect($color-primary), 2) + '" d="M0,0l6,8l6-8"/></svg>')
+    // background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23' + str-slice(inspect($color-primary), 2) + '" d="M0,0l6,8l6-8"/></svg>')
 
   &[multiple]
     background: none

@@ -20,11 +20,11 @@
     "sass-lint": "^1.12.1"
   },
   "scripts": {
+    "predeploy": "copyfiles index.html dist/* gh-pages/",
     "deploy": "node deploy.js",
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r dist/*.css",
     "banner": "banner-cli dist/*.css",
-    "copy": "copyfiles index.html dist/* gh-pages/",
-    "build": "rimraf dist && run-s copy sass autoprefixer banner",
+    "build": "rimraf dist && run-s sass autoprefixer banner",
     "lint": "prettier-standard --check && sass-lint --verbose --no-exit",
     "prepublishOnly": "npm run build",
     "sass": "node_modules/node-sass/bin/node-sass --output-style expanded src/pixss.sass dist/pixss.css && node-sass --output-style compressed src/pixss.sass dist/pixss.min.css",
