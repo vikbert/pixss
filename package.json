@@ -1,0 +1,25 @@
+{
+	"name": "pixss",
+	"version": "1.0.0",
+	"description": "a minimal css library for quick prototyping",
+	"main": "index.html",
+	"devDependencies": {
+		"gh-pages": "^3.0.0"
+	},
+	"scripts": {
+		"deploy": "node deploy.js"
+	},
+	"keywords": [
+		"css"
+	],
+	"author": "vikbert <segentor@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vikbert/pixss.git"
+	},
+	"bugs": {
+		"url": "https://github.com/vikbert/pixss/issues"
+	},
+	"homepage": "https://vikbert.github.io/pixss"
+}
