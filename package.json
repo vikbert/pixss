@@ -1,13 +1,14 @@
 {
   "name": "pixss",
   "version": "1.0.0",
-  "description": "a minimal css library for quick prototyping",
+  "description": "A minimal css library for quick prototyping",
   "main": "index.html",
   "devDependencies": {
-    "gh-pages": "^3.0.0",
     "autoprefixer": "^9.6.1",
     "banner-cli": "^0.14.1",
     "browser-sync": "^2.18.5",
+    "copyfiles": "^2.3.0",
+    "gh-pages": "^3.0.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.7",
     "node-sass": "^4.12.0",
@@ -22,7 +23,8 @@
     "deploy": "node deploy.js",
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r dist/*.css",
     "banner": "banner-cli dist/*.css",
-    "build": "rimraf dist && run-s sass autoprefixer banner",
+    "copy": "copyfiles index.html dist/* gh-pages/",
+    "build": "rimraf dist && run-s copy sass autoprefixer banner",
     "lint": "prettier-standard --check && sass-lint --verbose --no-exit",
     "prepublishOnly": "npm run build",
     "sass": "node_modules/node-sass/bin/node-sass --output-style expanded src/pixss.sass dist/pixss.css && node-sass --output-style compressed src/pixss.sass dist/pixss.min.css",
@@ -48,7 +50,7 @@
   "keywords": [
     "css"
   ],
-  "author": "vikbert <segentor@gmail.com>",
+  "author": "Xun Zhou <segentor@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
