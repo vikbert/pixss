@@ -20,7 +20,7 @@
     "sass-lint": "^1.12.1"
   },
   "scripts": {
-    "predeploy": "copyfiles index.html sites/*/* dist/* gh-pages/",
+    "predeploy": "rimraf gh-pages && copyfiles index.html sites/* sites/*/* dist/* gh-pages/",
     "deploy": "node deploy.js",
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r dist/*.css",
     "banner": "banner-cli dist/*.css",
