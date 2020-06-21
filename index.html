@@ -4,19 +4,51 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Xun Zhou" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Pixss | A lightweight pragmatic CSS Framework</title>
     <meta
       name="description"
-      content="Pixss provides a minimal setup of styles for a fast and clean starting point."
+      content="Pixss provides a lightweight pragmatic setup of styles for a fast and clean starting point."
     />
-    <title>Pixss | A lightweight CSS framework</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./sites/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./sites/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./sites/favicons/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="./sites/favicons/site.webmanifest"
+      crossorigin="use-credentials"
+    />
+    <link
+      rel="mask-icon"
+      href="./sites/favicons/safari-pinned-tab.svg"
+      color="#9150b2"
+    />
+
+    <link rel="stylesheet" href="./sites/app.css" />
+    <link rel="stylesheet" href="./sites/style.css" />
     <link rel="stylesheet" href="./dist/pixss.min.css" />
-    <link rel="stylesheet" href="./app.css" />
+
+    <script src="./sites/zepto.1.2.min.js"></script>
   </head>
   <body>
     <nav class="sidebar">
       <div class="sidebar-header">
-        <img src="./app.png" alt="logo" width="50" />
+        <img src="./sites/app.png" alt="logo" width="50" />
       </div>
       <a href="#buttons">
         <div class="sidebar-item active">
@@ -62,8 +94,11 @@
       </header>
 
       <section class="container" id="buttons">
-        <h5 class="title">Buttons</h5>
         <hr />
+        <h4 class="title">
+          Buttons
+          <span class="icon-embed icon-source"></span>
+        </h4>
         <div class="example">
           <div class="row">
             <div class="column">
@@ -114,39 +149,39 @@
       </section>
 
       <section class="container" id="typography">
-        <h5 class="title">Typography</h5>
         <hr />
+        <h4 class="title">Typography</h4>
         <div class="example">
           <div class="row">
             <div class="column">
               <h1>
                 Heading<span class="heading-font-size">
-                  <code>&lt;h1&gt;</code> 4.6rem (46px)</span
+                  <code>&lt;h1&gt;</code></span
                 >
               </h1>
               <h2>
                 Heading<span class="heading-font-size">
-                  <code>&lt;h2&gt;</code> 3.6rem (36px)</span
+                  <code>&lt;h2&gt;</code></span
                 >
               </h2>
               <h3>
                 Heading<span class="heading-font-size">
-                  <code>&lt;h3&gt;</code> 2.8rem (28px)</span
+                  <code>&lt;h3&gt;</code></span
                 >
               </h3>
               <h4>
                 Heading<span class="heading-font-size">
-                  <code>&lt;h4&gt;</code> 2.2rem (22px)</span
+                  <code>&lt;h4&gt;</code></span
                 >
               </h4>
               <h5>
                 Heading<span class="heading-font-size">
-                  <code>&lt;h5&gt;</code> 1.8rem (18px)</span
+                  <code>&lt;h5&gt;</code></span
                 >
               </h5>
               <h6>
                 Heading<span class="heading-font-size">
-                  <code>&lt;h6&gt;</code> 1.6rem (16px)</span
+                  <code>&lt;h6&gt;</code></span
                 >
               </h6>
             </div>
@@ -174,8 +209,8 @@
         </div>
       </section>
       <section class="container" id="lists">
-        <h5 class="title">Lists</h5>
         <hr />
+        <h4 class="title">Lists</h4>
         <div class="example">
           <div class="row">
             <div class="column">
@@ -227,8 +262,8 @@
       </section>
 
       <section class="container" id="forms">
-        <h5 class="title">Forms</h5>
         <hr />
+        <h4 class="title">Forms</h4>
         <div class="example">
           <form>
             <fieldset>
@@ -356,8 +391,8 @@
       </section>
 
       <section class="container" id="tables">
-        <h5 class="title">Tables</h5>
         <hr />
+        <h4 class="title">Tables</h4>
         <div class="example">
           <table>
             <thead>
@@ -418,8 +453,8 @@
       </section>
 
       <section class="container" id="grids">
-        <h5 class="title">Grids</h5>
         <hr />
+        <h4 class="title">Grids</h4>
         <div class="example">
           <div class="row">
             <div class="column"><span class="column-demo">100%</span></div>
@@ -755,25 +790,27 @@
       </section>
 
       <section class="container" id="code">
-        <h5 class="title">Code</h5>
         <hr />
+        <h4 class="title">Code</h4>
         <div class="example">
-          <pre><code>.Pixss {
-    color: #9b4dca;
-  }</code></pre>
+          <pre>
+            .Pixss { 
+              color: #9b4dca; 
+            }
+          </pre>
         </div>
       </section>
 
       <section class="container" id="utilities">
-        <h5 class="title">Utilities</h5>
         <hr />
+        <h4 class="title">Utilities</h4>
         <div class="example">
           <div class="clearfix">
             <div class="float-left">
-              <h3>left div</h3>
+              <h6>left div</h6>
             </div>
             <div class="float-right">
-              <h3>right div</h3>
+              <h6>right div</h6>
             </div>
           </div>
         </div>
@@ -781,6 +818,6 @@
       -->
     </main>
     <footer></footer>
-    <script src="./app.js"></script>
+    <script src="./sites/app.js"></script>
   </body>
 </html>

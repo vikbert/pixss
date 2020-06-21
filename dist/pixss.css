@@ -402,6 +402,10 @@ input[type='radio'] {
   color: #d1d1d1;
 }
 
+::-webkit-datetime-edit {
+  font-family: "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .container {
   margin: 0 auto;
   max-width: 112.0rem;
@@ -710,7 +714,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 2.0rem;
   margin-top: 0;
 }
