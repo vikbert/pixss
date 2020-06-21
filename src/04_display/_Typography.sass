@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6
-  font-weight: 500
+  font-weight: 400
   margin-bottom: 2.0rem
   margin-top: 0
 
@@ -42,3 +42,11 @@ h5
 h6
   font-size: 1.6rem
   line-height: 1.4
+
+// text alignment
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+$alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'right': 'right')
+
+@each $alignment, $text-align in $alignments
+  .has-text-#{$alignment}
+    text-align: #{$text-align} !important

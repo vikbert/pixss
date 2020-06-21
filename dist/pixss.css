@@ -15,16 +15,77 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: white;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  color: #404448;
+  color: #414549;
   font-family: "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   font-weight: 400;
   line-height: 1.6;
   margin: 0;
   padding: 0;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #7b2083;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a strong {
+  color: currentColor;
+}
+
+a:hover {
+  color: white;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+strong {
+  color: #363636;
+  font-weight: 500;
+}
+
+fieldset {
+  border: none;
 }
 
 .container {
@@ -220,7 +281,7 @@ body {
   z-index: 8888;
   min-width: 15rem;
   min-height: 100vh;
-  background-color: #791f82;
+  background-color: #7b2083;
 }
 
 .sidebar-header,
@@ -231,7 +292,7 @@ body {
 }
 
 .sidebar-item.active {
-  color: #791f82;
+  color: #7b2083;
   background-color: #ffffff;
 }
 
@@ -287,7 +348,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 2.0rem;
   margin-top: 0;
 }
@@ -320,6 +381,22 @@ h5 {
 h6 {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+
+.has-text-centered {
+  text-align: center !important;
+}
+
+.has-text-justified {
+  text-align: justify !important;
+}
+
+.has-text-left {
+  text-align: left !important;
+}
+
+.has-text-right {
+  text-align: right !important;
 }
 
 .button,
@@ -379,7 +456,7 @@ code {
 
 pre {
   background: #f4f5f6;
-  border-left: 0.3rem solid #791f82;
+  border-left: 0.3rem solid #7b2083;
   overflow-y: hidden;
 }
 
@@ -397,12 +474,12 @@ hr {
 }
 
 a {
-  color: #791f82;
+  color: #7b2083;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #404448;
+  color: #414549;
 }
 
 dl,
@@ -470,9 +547,9 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-  background-color: #791f82;
-  border: 0.1rem solid #791f82;
-  color: #fff;
+  background-color: #7b2083;
+  border: 0.1rem solid #7b2083;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-size: 1.5rem;
@@ -491,8 +568,8 @@ input[type='button']:hover,
 input[type='reset']:hover,
 input[type='submit']:hover {
   opacity: 0.8;
-  border: 0.1rem solid #791f82;
-  color: #fff;
+  border: 0.1rem solid #7b2083;
+  color: white;
   outline: 0;
 }
 
@@ -523,7 +600,7 @@ input[type='reset'][disabled]:focus,
 input[type='reset'][disabled]:hover,
 input[type='submit'][disabled]:focus,
 input[type='submit'][disabled]:hover {
-  border-color: #791f82;
+  border-color: #7b2083;
 }
 
 .button.button-outline,
@@ -531,8 +608,8 @@ button.button-outline,
 input[type='button'].button-outline,
 input[type='reset'].button-outline,
 input[type='submit'].button-outline {
-  background-color: #fff;
-  color: #791f82;
+  background-color: white;
+  color: #7b2083;
 }
 
 .button.button-outline:focus, .button.button-outline:hover,
@@ -544,10 +621,10 @@ input[type='reset'].button-outline:focus,
 input[type='reset'].button-outline:hover,
 input[type='submit'].button-outline:focus,
 input[type='submit'].button-outline:hover {
-  background-color: #791f82;
+  background-color: #7b2083;
   opacity: 0.8;
-  border-color: #791f82;
-  color: #fff;
+  border-color: #7b2083;
+  color: white;
 }
 
 .button.button-outline[disabled],
@@ -563,8 +640,8 @@ button.button-outline[disabled]:hover,
 input[type='button'].button-outline[disabled]:hover,
 input[type='reset'].button-outline[disabled]:hover,
 input[type='submit'].button-outline[disabled]:hover {
-  border-color: #791f82;
-  color: #791f82;
+  border-color: #7b2083;
+  color: #7b2083;
   background-color: inherit;
   opacity: .5;
 }
@@ -576,7 +653,7 @@ input[type='reset'].button-clear,
 input[type='submit'].button-clear {
   background-color: transparent;
   border-color: transparent;
-  color: #791f82;
+  color: #7b2083;
 }
 
 .button.button-clear:focus, .button.button-clear:hover,
@@ -590,7 +667,7 @@ input[type='submit'].button-clear:focus,
 input[type='submit'].button-clear:hover {
   background-color: transparent;
   border-color: transparent;
-  color: #404448;
+  color: #414549;
 }
 
 .button.button-clear[disabled],
@@ -610,7 +687,7 @@ input[type='reset'].button-clear[disabled]:focus,
 input[type='reset'].button-clear[disabled]:hover,
 input[type='submit'].button-clear[disabled]:focus,
 input[type='submit'].button-clear[disabled]:hover {
-  color: #791f82;
+  color: #7b2083;
 }
 
 form {
@@ -661,7 +738,7 @@ input[type='week']:focus,
 input:not([type]):focus,
 textarea:focus,
 select:focus {
-  border: 0.2rem solid #791f82;
+  border: 0.2rem solid #7b2083;
   outline: 0;
 }
 

@@ -13,13 +13,65 @@
 html
   box-sizing: border-box
   font-size: 62.5%
+  background-color: $white
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
 
 // Default body styles
 body
   color: $color-secondary
-  font-family: "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: $default-font-family
   font-size: 1.6em // Currently ems cause chrome bug misinterpreting rems on body element
   font-weight: 400
   line-height: 1.6
   margin: 0
   padding: 0
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section
+  display: block
+
+body,
+button,
+input,
+select,
+textarea
+  font-family: $default-font-family
+
+code,
+pre
+  -moz-osx-font-smoothing: auto
+  -webkit-font-smoothing: auto
+  font-family: $default-font-family
+
+// Inline
+a
+  color: $color-primary
+  cursor: pointer
+  text-decoration: none
+  strong
+    color: currentColor
+  &:hover
+    color: $link-hover
+
+img
+  height: auto
+  max-width: 100%
+
+span
+  font-style: inherit
+  font-weight: inherit
+
+strong
+  color: $grey-darker
+  font-weight: 500
+
+// Block
+
+fieldset
+  border: none
