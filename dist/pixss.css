@@ -35,6 +35,10 @@
   background-color: #3273dc;
 }
 
+.is-initial {
+  background-color: #ffffff;
+}
+
 *,
 *:after,
 *:before {
@@ -57,6 +61,10 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 article,
@@ -372,6 +380,16 @@ footer {
   margin: 5rem 0;
   padding: 5rem 0;
   color: #ffffff;
+}
+
+.mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 b,
@@ -911,6 +929,57 @@ input[type='radio'] {
 
 .float-right {
   float: right;
+}
+
+.close {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: #363636;
+  cursor: pointer;
+  pointer-events: auto;
+  display: inline-block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 0;
+  height: 5rem;
+  min-height: 5rem;
+  max-height: 5rem;
+  width: 20px;
+  max-width: 5rem;
+  min-width: 5rem;
+  outline: none;
+  position: absolute;
+  right: 0;
+}
+
+.close::before, .close::after {
+  background-color: #ffffff;
+  content: "";
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform-origin: center center;
+}
+
+.close::before {
+  height: 2px;
+  width: 50%;
+}
+
+.close::after {
+  height: 50%;
+  width: 2px;
+}
+
+.close:hover, .close:focus {
+  background-color: #b5b5b5;
+}
+
+.close:active {
+  background-color: #ff470f;
 }
 
 /*# sourceMappingURL=pixss.css.map */
