@@ -1,3 +1,10 @@
+.header {
+  height: 13rem;
+}
+.header img {
+  float: right;
+  width: 13rem;
+}
 h5.title {
   margin: 1.5rem;
 }
@@ -12,6 +19,7 @@ h5.title {
   border: 1px solid #791f82;
   color: #791f82;
   float: right;
+  margin-right: 3.5rem;
 }
 .icon-source:hover {
   background-color: #791f821a;
