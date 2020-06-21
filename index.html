@@ -80,7 +80,7 @@
       </a>
     </nav> -->
     <main>
-      <nav id="nav">
+      <nav class="topbar">
         <section class="container">
           <a href="/" class="logo-link">
             <img class="logo" src="./sites/app.png" alt="logo" />
@@ -92,14 +92,20 @@
           </ul>
         </section>
       </nav>
-      <header>
-        <div class="container">
-          <h1 class="header">Pixss</h1>
+      <header class="hero is-primary">
+        <div class="container has-flex-centered">
+          <div class="hero-content has-text-centered">
+            <img src="./sites/app.png" alt="logo" />
+            <h3>Pixss</h3>
+            <p>A lightweight pragmatic CSS Framework</p>
+            <a href="/" class="button is-outlined is-rounded"
+              >Getting Started</a
+            >
+          </div>
         </div>
       </header>
 
       <section class="container" id="buttons">
-        <hr />
         <h4 class="title">
           Buttons
           <span class="icon-embed icon-source"></span>
@@ -107,47 +113,14 @@
         <div class="example">
           <div class="row">
             <div class="column">
-              <button class="button">Default Button</button>
-              <button class="button button-outline">Outlined Button</button>
-              <button class="button button-clear">Clear Button</button>
-              <button class="button" disabled>Default Button</button>
-              <button class="button button-outline" disabled>
-                Outlined Button
-              </button>
-              <button class="button button-clear" disabled>
-                Clear Button
-              </button>
-            </div>
-            <div class="column">
-              <input class="button" type="submit" value="Default Button" />
-              <input
-                class="button button-outline"
-                type="submit"
-                value="Outlined Button"
-              />
-              <input
-                class="button button-clear"
-                type="submit"
-                value="Clear Button"
-              />
-              <input
-                class="button"
-                disabled
-                type="submit"
-                value="Default Button"
-              />
-              <input
-                class="button button-outline"
-                disabled
-                type="submit"
-                value="Outlined Button"
-              />
-              <input
-                class="button button-clear"
-                disabled
-                type="submit"
-                value="Clear Button"
-              />
+              <button class="is-rounded is-primary">Primary</button>
+              <button class="is-rounded is-primary" disabled>Disabled</button>
+              <button class="is-rounded is-success">Success</button>
+              <button class="is-rounded is-success">Success</button>
+              <button class="is-rounded is-warning">Warnin</button>
+              <button class="is-rounded is-danger">Danger</button>
+              <button class="is-rounded is-danger" disabled>Disabled</button>
+              <a class="button is-rounded is-info">Link</a>
             </div>
           </div>
         </div>
@@ -197,14 +170,14 @@
               </p>
               <p>
                 Obcaecati <s>error</s> a, quas fugit hic,
-                <a href="#">accusantium</a> autem
+                <a href="#">a href link text</a> autem
                 <i>necessitatibus praesentium</i> placeat, iusto et
-                <b>soluta expedita</b>! Quisquam repellendus
-                <small>voluptatem</small>, <mark>tempora iste culpa fuga</mark>,
+                <b>strong text</b>! Quisquam repellendus
+                <small>small text</small>, <mark>marked text</mark>,
                 <time>on April 29</time>!
               </p>
               <p>
-                Quisquam nobis, ad. Iusto, <strong>repudiandae</strong>. Autem
+                Quisquam nobis, ad. Iusto, <strong>strong text</strong>. Autem
                 ipsa blanditiis, quae, fugit nobis
                 <em>perspiciatis in beatae vitae</em> numquam illo, architecto
                 hic dolor <q>molestiae aliquid</q>.

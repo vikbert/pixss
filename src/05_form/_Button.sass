@@ -7,26 +7,26 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit']
-  background-color: $color-primary
-  border: .1rem solid $color-primary
   color: $color-initial
   cursor: pointer
   display: inline-block
   font-size: 1.5rem
-  height: 3.8rem
-  line-height: 3.8rem
-  padding: 0 3.0rem
+  height: 4rem
+  line-height: 4rem
+  padding: 0.1rem 3.0rem
   text-align: center
   text-decoration: none
   white-space: nowrap
+  border: none
   outline: 0
 
   &:focus
   &:hover
     opacity: 0.8
-    border: .1rem solid $color-primary
     color: $color-initial
     outline: 0
+    border: none
+
   &:active
     opacity: 1
     outline: 0
@@ -39,16 +39,16 @@ input[type='submit']
     &:hover
       border-color: $color-primary
 
-  &.button-outline
+  &.is-outlined
     background-color: $color-initial
+    border: 1px solid $color-primary
     color: $color-primary
 
     &:focus,
     &:hover
-      background-color: $color-primary
       opacity: 0.8
-      border-color: $color-primary
-      color: $color-initial
+    &:active
+      opacity: 1
 
     &[disabled]
       cursor: not-allowed
@@ -59,7 +59,7 @@ input[type='submit']
         background-color: inherit
         opacity: .5
 
-  &.button-clear
+  &.is-cleared
     background-color: transparent
     border-color: transparent
     color: $color-primary
