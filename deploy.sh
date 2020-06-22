@@ -3,6 +3,7 @@ set -e
 
 ### publish htmls to gh-pages branch
 npm run build
+npm run copy
 cd gh-pages
 
 git init
