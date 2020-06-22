@@ -13,18 +13,18 @@
   })
 
   //open overlay & show source code
-  $('.icon-source').on('click', function (event) {
-    const codeHtml = $(this)
-      .parent()
-      .next()
-      .html()
-    $codeContent.text(codeHtml)
-    // hljs.highlightBlock($codeContent.find("code"));
-    $overlay.css('visibility', 'visible')
-  })
+  // $('.icon-source').on('click', function (event) {
+  //   const codeHtml = $(this)
+  //     .parent()
+  //     .next()
+  //     .html()
+  //   $codeContent.text(codeHtml)
+  //   // hljs.highlightBlock($codeContent.find("code"));
+  //   $overlay.css('visibility', 'visible')
+  // })
 
-  $('.icon-close').on('click', function (event) {
-    $codeContent.text('')
-    $overlay.css('visibility', 'hidden')
-  })
+  // $('.icon-close').on('click', function (event) {
+  //   $codeContent.text('')
+  //   $overlay.css('visibility', 'hidden')
+  // })
 })()
