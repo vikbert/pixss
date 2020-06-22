@@ -1,4 +1,7 @@
 ;(function () {
+  $overlay = $('#overlay')
+  $codeContent = $overlay.find('#code-content')
+
   // toggle sidebar-item active/inactive
   $('nav').on('click', '.sidebar-item', function (event) {
     const fancyClass = 'active'
@@ -9,13 +12,19 @@
     }
   })
 
-  //show source code of current example
+  //open overlay & show source code
   $('.icon-source').on('click', function (event) {
-    console.log(
-      $(this)
-        .parent()
-        .next()
-        .html(),
-    )
+    const codeHtml = $(this)
+      .parent()
+      .next()
+      .html()
+    $codeContent.text(codeHtml)
+    // hljs.highlightBlock($codeContent.find("code"));
+    $overlay.css('visibility', 'visible')
+  })
+
+  $('.icon-close').on('click', function (event) {
+    $codeContent.text('')
+    $overlay.css('visibility', 'hidden')
   })
 })()
