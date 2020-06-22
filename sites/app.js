@@ -3,10 +3,8 @@
   $('#demo-button').load('./sites/demo/button.html')
   $('#demo-layout').load('./sites/demo/layout.html')
   $('#demo-typography').load('./sites/demo/typography.html')
-  $('#demo-lists').load('./sites/demo/lists.html')
   $('#demo-forms').load('./sites/demo/forms.html')
   $('#demo-tables').load('./sites/demo/tables.html')
-  $('#demo-grids').load('./sites/demo/grids.html')
 
   // $overlay = $("#overlay");
   // $codeContent = $overlay.find("#code-content");
