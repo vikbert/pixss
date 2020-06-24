@@ -1,0 +1,20 @@
+// Sidebar
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.sidebar
+    position: fixed
+    left: 0
+    z-index: 8888
+    min-width: 15rem
+    min-height: 100vh
+    background-color: $color-primary
+.sidebar-header,
+.sidebar-item
+    padding: 1rem 2rem
+    color: #ffffff
+    cursor: pointer
+.sidebar-item.active
+    color: $color-primary
+    background-color: #ffffff
+.sidebar-item
+    &:hover
+        background-color: #ffffffc9
