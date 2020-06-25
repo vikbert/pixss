@@ -2,12 +2,6 @@
 // Base
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// Set box-sizing globally to handle padding and border widths
-*,
-*:after,
-*:before
-  box-sizing: inherit
-
 // The base font-size is set at 62.5% for having the convenience
 // of sizing rems in a way that is similar to using px: 1.6rem = 16px
 html
@@ -20,13 +14,12 @@ html
 // Default body styles
 body
   color: $color-secondary
-  font-family: $default-font-family
+  font-family: "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, sans-serif
   font-size: 1.6em // Currently ems cause chrome bug misinterpreting rems on body element
   font-weight: 400
   line-height: 1.6
-  margin: 0
-  padding: 0
-  &.modal-open
+  #F2F2F2
+  &.modal-opened
     overflow: hidden
 
 article,
@@ -43,40 +36,11 @@ button,
 input,
 select,
 textarea
-  font-family: $default-font-family
-
-code,
-pre
-  -moz-osx-font-smoothing: auto
-  -webkit-font-smoothing: auto
-  background-color: #f8f8f8
-  border: 1px solid #ddd
-  font-family: monospace
-  padding: 0.2rem .5rem
-
-// Inline
-a
-  color: $color-primary
-  cursor: pointer
-  text-decoration: none
-  strong
-    color: currentColor
-  &:hover
-    color: $link-hover
-
-img
-  height: auto
-  max-width: 100%
+  font-family: "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 span
   font-style: inherit
   font-weight: inherit
-
-strong
-  color: $grey-darker
-  font-weight: 500
-
-// Block
 
 fieldset
   border: none

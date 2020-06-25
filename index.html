@@ -41,36 +41,25 @@
     <script src="./sites/zepto.1.2.min.js"></script>
   </head>
   <body>
-    <aside>
-      <div id="overlay" class="mask">
-        <div class="icon-close"></div>
-        <div class="row flex-centered full-height">
-          <div class="card">
-            <div class="card-content">
-              <pre>
-                <code id="code-content" class="language-html"></code>
-              </pre>
-            </div>
-          </div>
+    <header>
+      <nav class="appbar" aria-label="primary">
+        <div class="hamburger" id="drawer-icon">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </div>
-    </aside>
 
-    <main>
-      <nav class="topbar">
-        <section class="container">
-          <a href="/pixss" class="logo-link">
-            <img class="logo" src="./sites/app.png" alt="logo" />
-            <h1 class="title">Pixss</h1>
-          </a>
-          <ul class="float-right nav-list">
-            <li class="nav-item">Docs</li>
-            <li class="nav-item">GitHub</li>
-          </ul>
-        </section>
+        <a href="/pixss" class="logo-link">
+          <img class="logo" src="./sites/app.png" alt="logo" />
+          <h1 class="title">Pixss</h1>
+        </a>
+
+        <div class="github"></div>
       </nav>
-
-      <header class="hero is-primary">
+      <nav class="drawer" aria-label="secondary" id="drawer-bar"></nav>
+    </header>
+    <main>
+      <section class="hero is-primary">
         <div class="container flex-centered">
           <div class="hero-content has-text-centered">
             <img class="logo-header" src="./sites/app.png" alt="logo" />
@@ -81,16 +70,135 @@
             >
           </div>
         </div>
-      </header>
+      </section>
 
-      <section class="container" id="buttons">
+      <section class="container">
+        <div class="row">
+          <div class="column">
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-library"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Base</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-insert-template"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Layout</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-tree"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Navigation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-stack"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Display</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-quill"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Form</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-bubbles4"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Feeback</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-cogs"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Surface</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="widget-icon">
+                <span class="icon icon-aid-kit"></span>
+              </div>
+              <div class="widget-content">
+                <h3 class="my-0">Utils</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Adipisci explicabo rem reprehenderit inventore accusamus
+                  magni! Laborum, maiores voluptas?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="container" id="buttons">
         <h3 class="title">
           <span>Buttons</span>
           <a
             href="https://codesandbox.io/s/pixss-buttons-wdon8?file=/index.html"
             target="_blank"
           >
-            <span class="icon-embed icon-source" />
+            <span class="icon-code icon-source" />
           </a>
         </h3>
         <id id="demo-button"></id>
@@ -104,7 +212,6 @@
             href="https://codesandbox.io/s/pixss-layout-94nuy?file=/index.html"
             target="_blank"
           >
-            <span class="icon-embed icon-source"></span>
           </a>
         </h3>
         <div id="demo-layout" />
@@ -114,7 +221,7 @@
         <hr />
         <h3 class="title">
           Typography
-          <span class="icon-embed icon-source"></span>
+          <span class="icon-code icon-source"></span>
         </h3>
         <div id="demo-typography" class="example" />
       </section>
@@ -129,12 +236,12 @@
         <hr />
         <h3 class="title">Tables</h3>
         <div id="demo-tables" class="example"></div>
-      </section>
+      </section> -->
     </main>
 
     <footer class="footer flex-centered">
       <div class="">
-        Pixss ♥️ Berlin ® 2020
+        Pixss ♥️ Berlin © 2020
       </div>
     </footer>
 

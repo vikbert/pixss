@@ -19,14 +19,15 @@
     "sass-lint": "^1.12.1"
   },
   "scripts": {
-    "copy": "rimraf gh-pages && copyfiles index.html sites/* sites/*/* dist/* gh-pages/",
+    "copy-ghpages": "copyfiles index.html sites/* sites/*/* dist/* gh-pages/",
+    "remove-ghpages": "rimraf gh-pages",
+    "publish": "run-s build remove-ghpages copy-ghpages",
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r dist/*.css",
     "banner": "banner-cli dist/*.css",
     "build": "rimraf dist && run-s sass autoprefixer banner",
     "lint": "prettier-standard --check && sass-lint --verbose --no-exit",
-    "prepublishOnly": "npm run build",
     "sass": "node_modules/node-sass/bin/node-sass --output-style expanded src/pixss.sass dist/pixss.css && node-sass --output-style compressed src/pixss.sass dist/pixss.min.css",
-    "serve": "browser-sync start --no-notify -s test --ss dist -f dist",
+    "serve": "browser-sync start --no-notify -s test --ss . -f .",
     "start": "run-p build watch serve",
     "watch": "onchange src -- run-p build"
   },

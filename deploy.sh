@@ -2,8 +2,7 @@
 set -e
 
 ### publish htmls to gh-pages branch
-npm run build
-npm run copy
+npm run publish
 cd gh-pages
 
 git init
@@ -16,3 +15,4 @@ git push -f https://github.com/vikbert/pixss.git master:gh-pages
 
 cd -
 git pull
+rm -rf gh-pages

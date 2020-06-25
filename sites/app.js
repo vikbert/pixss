@@ -1,10 +1,19 @@
 ;(function () {
   // load the html segments
-  $('#demo-button').load('./sites/demo/button.html')
-  $('#demo-layout').load('./sites/demo/layout.html')
-  $('#demo-typography').load('./sites/demo/typography.html')
-  $('#demo-forms').load('./sites/demo/forms.html')
-  $('#demo-tables').load('./sites/demo/tables.html')
+  // $("#demo-button").load("./sites/demo/button.html");
+  // $("#demo-layout").load("./sites/demo/layout.html");
+  // $("#demo-typography").load("./sites/demo/typography.html");
+  // $("#demo-forms").load("./sites/demo/forms.html");
+  // $("#demo-tables").load("./sites/demo/tables.html");
+
+  // toggle open/close drawer
+  $_drawerIcon = $('#drawer-icon')
+  $_drawerBar = $('#drawer-bar')
+
+  $_drawerIcon.on('click', () => {
+    $_drawerIcon.toggleClass('open')
+    $_drawerBar.toggleClass('open')
+  })
 
   // $overlay = $("#overlay");
   // $codeContent = $overlay.find("#code-content");

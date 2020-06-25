@@ -1,7 +1,4 @@
-const test = require('ava')
 const npm = require('../../package.json')
-const bower = require('../../bower.json')
-const composer = require('../../composer.json')
 
 const packages = [npm, bower, composer]
 

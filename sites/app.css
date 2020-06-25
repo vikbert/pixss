@@ -1,6 +1,7 @@
 :root {
-  --title-height: 1.9rem;
+  --title-height: 2.2rem;
   --color-black: rgb(36, 35, 35);
+  --color-grey-dark: #363636;
   --color-primary: #791f82;
 }
 
@@ -31,6 +32,7 @@ nav .title {
 }
 .logo-link {
   display: flex;
+  justify-items: center;
 }
 .logo {
   width: 2rem;
@@ -44,15 +46,13 @@ h5.title {
   filter: invert(1);
 }
 .icon-source {
-  padding: 0.3rem;
+  font-size: 23px;
+  padding: 0.5rem;
   cursor: pointer;
-  border-radius: 50%;
-  border: 1px solid var(--color-primary);
   color: var(--color-primary);
+  background-color: #9951a224;
+  border-radius: 50%;
   float: right;
-}
-.icon-source:hover {
-  background-color: #791f821a;
 }
 .hero-content {
   width: 35rem;
@@ -67,6 +67,22 @@ img.logo-header {
 .hero-content h2 {
   margin-bottom: 5rem;
 }
-.width-45 {
-  width: 45%;
+.widget {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+}
+.widget-content {
+  width: 95%;
+  /* text-align: justify; */
+}
+.widget .icon {
+  padding: 4px 0 0 0;
+  font-size: 35px;
+  line-height: 40px;
+  color: var(--color-primary);
+}
+.widget h3 {
+  font-weight: bold;
+  color: #555454;
+  margin-bottom: 10px;
 }
