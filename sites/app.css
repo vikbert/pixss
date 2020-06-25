@@ -60,7 +60,15 @@ h5.title {
   flex-direction: column;
   align-items: center;
 }
-img.logo-header {
+.logo-small {
+  width: 23px;
+  height: 25px;
+}
+
+.logo-large {
+  height: 90px;
+}
+.logo-large img {
   filter: invert(1);
   width: 8rem;
 }

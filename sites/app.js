@@ -5,6 +5,7 @@
   // $("#demo-typography").load("./sites/demo/typography.html");
   // $("#demo-forms").load("./sites/demo/forms.html");
   // $("#demo-tables").load("./sites/demo/tables.html");
+  $('#logo-hero').attr('src', './sites/app.png')
 
   // toggle open/close drawer
   $_drawerIcon = $('#drawer-icon')
