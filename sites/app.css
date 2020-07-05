@@ -1,5 +1,5 @@
 :root {
-  --title-height: 2.2rem;
+  --title-height: 1.8rem;
   --color-black: rgb(36, 35, 35);
   --color-grey-dark: #363636;
   --color-primary: #791f82;
@@ -61,8 +61,8 @@ h5.title {
   align-items: center;
 }
 .logo-small {
-  width: 23px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
 }
 
 .logo-large {
