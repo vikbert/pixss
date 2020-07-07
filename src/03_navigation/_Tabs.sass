@@ -1,3 +1,40 @@
 
 // tabs
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
+.tabs
+    -webkit-overflow-scrolling: touch
+    align-items: stretch
+    display: flex
+    font-size: 1.6rem
+    justify-content: space-between
+    overflow: hidden
+    overflow-x: auto
+    white-space: nowrap
+    ul
+        align-items: center
+        border-bottom-color: $grey-light
+        border-bottom-style: solid
+        border-bottom-width: 1px
+        display: flex
+        flex-grow: 1
+        flex-shrink: 0
+        justify-content: flex-start
+    li
+        display: block
+        margin: 0
+    a
+        align-items: center
+        border-bottom-color: $grey-light
+        border-bottom-style: solid
+        border-bottom-width: 1px
+        display: flex
+        justify-content: center
+        margin-bottom: -1px
+        padding: .5em 1em
+        vertical-align: top
+        color: $grey
+        &:hover
+            border-bottom-color: $color-primary
+    li.is-active a
+        color: $color-primary
+        border-bottom-color: $color-primary
