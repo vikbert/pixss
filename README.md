@@ -11,7 +11,7 @@
 |            | hero       |             | ✅      |
 |            | footer     |             | ✅      |
 | navigation | drawer     |             | ✅      |
-|            | tabs       |             | ❌      |
+|            | tabs       |             | ✅      |
 | display    | code       |             | ✅      |
 |            | divider    |             | ✅      |
 |            | link       |             | ✅      |

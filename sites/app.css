@@ -38,6 +38,15 @@ nav .title {
   width: 2rem;
   color: var(--color-primary);
 }
+.github {
+  padding: 0 0.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.github a {
+  line-height: 0.8rem;
+}
 h5.title {
   margin: 1.5rem;
 }
