@@ -1,5 +1,6 @@
 # dist
 dist
+backup
 # dependencies
 bower_components
 node_modules

@@ -33,15 +33,13 @@ bash deploy.sh
 |            | table      |             | ✅     |
 |            | typography |             | ✅     |
 | form       | button     |             | ✅     |
-|            | checkbox   |             | ❌     |
-|            | form       |             | ❌     |
-|            | radio      |             | ❌     |
-|            | select     |             | ❌     |
-|            | switch     |             | ❌     |
+|            | checkbox   |             | ✅     |
+|            | form       |             | ✅     |
+|            | radio      |             | ✅     |
+|            | select     |             | ✅     |     |
 | feedback   | overlay    |             | ❌     |
 |            | toast      |             | ❌     |
-| surface    | card       |             | ❌     |
-|            | container  |             | ❌     |
-|            | grid       |             | ❌     |
-| utils      | icons      |             | ❌     |
-|            | utils      |             | ❌     |
+| surface    | card       |             | ✅     |
+|            | container  |             | ✅     |
+| utils      | icons      |             | ✅     |
+|            | utils      |             | ✅     |

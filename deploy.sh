@@ -2,7 +2,9 @@
 set -e
 
 ### publish htmls to gh-pages branch
-npm run publish
+npm run build
+mkdir -p gh-pages
+cp -rf dist/* gh-pages
 cd gh-pages
 
 git init

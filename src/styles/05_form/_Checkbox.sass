@@ -42,13 +42,6 @@ input[type="checkbox"],input[type="radio"]
   border-radius: 50%
 
 // checkbox + radio: 
-// change the bg color, if UX element is checked
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
-.checkbox input:checked ~ span,
-.radio input:checked ~ span
-  background-color: $color-primary
-
-// checkbox + radio: 
 // hide the indicator element, if not checked
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 .checkbox span:after, .radio span:after
@@ -56,9 +49,16 @@ input[type="checkbox"],input[type="radio"]
   position: absolute
   display: none
 
-// checkbox 
-// show the checkbox indicator element, if checked
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
+// CHECKED ✅ ✅ ✅ ✅
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// change the bg color, if UX element is checked
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.checkbox input:checked ~ span,
+.radio input:checked ~ span
+  background-color: $color-primary
+
 .checkbox input:checked ~ span:after
   display: block
   left: 5px
@@ -71,10 +71,7 @@ input[type="checkbox"],input[type="radio"]
   -ms-transform: roate(45deg)
   transform: rotate(45deg)
 
-// Radio
-// show the radio indicator element, if checked
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
-.radio input:checked ~span:after
+.radio input:checked ~ span:after
   display: block
   top: 4px
   left: 4px
@@ -82,3 +79,21 @@ input[type="checkbox"],input[type="radio"]
   height: 8px
   border-radius: 50%
   background-color: #ffffff
+
+
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+// DISABLED ⭕️ ⭕️ ⭕️ ⭕️
+// ––––––––––––––––––––––––––––––––––––––––––––––––––  
+.checkbox input[type=checkbox][disabled] ~ span,
+.radio input[type=radio][disabled] ~ span
+  background-color: $grey
+
+.checkbox input[type=checkbox][disabled] ~ span,
+.radio input[type=radio][disabled] ~ span
+  position: absolute
+  top: 0
+  left: 0
+  height: $checkbox-size
+  width: $checkbox-size
+  background-color: #fffff;
+  border: 2px solid $grey;

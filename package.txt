@@ -29,24 +29,29 @@
     "sirv-cli": "^1.0.0"
   },
   "scripts": {
-    "copy-ghpages": "copyfiles dist/* dist/**/**/* gh-pages/",
+    "copy-ghpages": "copyfiles index.html sites/* sites/*/* dist/* gh-pages/",
     "remove-ghpages": "rimraf gh-pages",
-    "publish": "run-s build ",
+    "publish": "run-s build remove-ghpages copy-ghpages",
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r dist/styles/*.css",
     "banner": "banner-cli dist/styles/*.css",
+    "build:sass": "rimraf dist/styles && run-s sass autoprefixer banner",
     "lint": "prettier-standard --check && sass-lint --verbose --no-exit",
     "sass": "node_modules/node-sass/bin/node-sass --output-style expanded src/styles/pixss.sass dist/styles/pixss.css && node-sass --output-style compressed src/styles/pixss.sass dist/styles/pixss.min.css",
-    "build:sass": "rimraf dist/styles && run-s sass autoprefixer banner",
-    "build:svelte": "rollup -c",
-    "build": "run-p build:svelte build:sass",
-    "watch:sass": "onchange src/styles -- run-p build:sass",
-    "watch:svelte": "rollup -c -w",
-    "dev": "run-p watch:sass watch:svelte",
-    "start": "sirv dist"
+    "serve": "browser-sync start --no-notify -s test --ss . -f .",
+    "start": "run-p build:sass watch:sass",
+    "watch:sass": "onchange src/styles -- run-p build",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "app:start": "sirv dist"
   },
   "prettier": {
     "jsxSingleQuote": false,
     "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "**/*": [
