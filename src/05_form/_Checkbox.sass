@@ -1,0 +1,84 @@
+// checkbox + radio: 
+// hide the original
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+$checkbox-size: 2rem
+input[type="checkbox"],input[type="radio"]
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+
+// checkbox + radio: 
+// adjust the position of label text
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.checkbox,.radio
+  display: block;
+  position: relative;
+  vertical-align: center
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: $checkbox-size
+
+// checkbox + radio: 
+// create the custom UX element
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.checkbox > span, .radio > span
+  position: absolute
+  top: 0
+  left: 0
+  height: $checkbox-size
+  width: $checkbox-size
+  background-color: #fffff;
+  border: 2px solid $color-primary;
+
+/* create the custom radio */
+.radio > span
+  border-radius: 50%
+
+// checkbox + radio: 
+// change the bg color, if UX element is checked
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.checkbox input:checked ~ span,
+.radio input:checked ~ span
+  background-color: $color-primary
+
+// checkbox + radio: 
+// hide the indicator element, if not checked
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.checkbox span:after, .radio span:after
+  content: ""
+  position: absolute
+  display: none
+
+// checkbox 
+// show the checkbox indicator element, if checked
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.checkbox input:checked ~ span:after
+  display: block
+  left: 5px
+  top: 0px
+  width: 5px
+  height: 10px
+  border: solid white
+  border-width: 0 2px 2px 0
+  -webkit-transform: rotate(45deg)
+  -ms-transform: roate(45deg)
+  transform: rotate(45deg)
+
+// Radio
+// show the radio indicator element, if checked
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+.radio input:checked ~span:after
+  display: block
+  top: 4px
+  left: 4px
+  width: 8px
+  height: 8px
+  border-radius: 50%
+  background-color: #ffffff
