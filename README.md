@@ -36,7 +36,7 @@ bash deploy.sh
 |            | checkbox   |             | ✅     |
 |            | form       |             | ✅     |
 |            | radio      |             | ✅     |
-|            | select     |             | ✅     |     |
+|            | select     |             | ✅     |  |
 | feedback   | overlay    |             | ❌     |
 |            | toast      |             | ❌     |
 | surface    | card       |             | ✅     |
