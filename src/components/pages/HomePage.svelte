@@ -4,13 +4,6 @@
   import Tabs from "../tabs/index.svelte";
 </script>
 
-<style>
-  .code {
-    background: #000;
-    padding: 0.1rem;
-  }
-</style>
-
 <section class="hero is-primary">
   <HeroHome />
 </section>
