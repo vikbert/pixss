@@ -15,6 +15,6 @@
   </main>
 </Router>
 
-<footer class="footer flex-centered">
+<footer class="super-centered">
   <div class="">Pixss ♥️ Berlin © 2020</div>
 </footer>
