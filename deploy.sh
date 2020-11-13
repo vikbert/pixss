@@ -17,3 +17,4 @@ git push -f https://github.com/vikbert/pixss.git master:gh-pages
 
 cd -
 git pull
+rm -rf gh-pages
