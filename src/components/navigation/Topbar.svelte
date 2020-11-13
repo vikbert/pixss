@@ -1,5 +1,4 @@
 <script>
-  import { Link } from "svelte-routing";
   export let toggleClassName;
   export let classOpen = "";
 
@@ -15,14 +14,12 @@
     <span />
   </div>
 
-  <Link to="/">
-    <div class="logo-link">
-      <div class="logo-small">
-        <img class="logo" src="./static/app-small.png" alt="logo" />
-      </div>
-      <h1 class="title">Pixss</h1>
+  <div class="logo-link">
+    <div class="logo-small">
+      <img class="logo" src="./static/app-small.png" alt="logo" />
     </div>
-  </Link>
+    <h1 class="title">Pixss</h1>
+  </div>
 
   <div class="github">
     <a href="https://github.com/vikbert/pixss" target="_blank">

@@ -1,0 +1,70 @@
+
+// Divider
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+hr
+  border: 0
+  border-top: .1rem solid $color-quinary
+  margin: 3.0rem 0
+
+// Link
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a
+  cursor: pointer
+  color: $color-primary
+  text-decoration: none
+
+  &:focus,
+  &:hover
+    color: $color-secondary
+
+// List
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+dl,
+ol,
+ul
+  list-style: none
+  margin-top: 0
+  padding-left: 0
+
+  dl,
+  ol,
+  ul
+    font-size: 90%
+    margin: 1.5rem 0 1.5rem 3.0rem
+
+ol
+  list-style: decimal inside
+
+ul
+  list-style: circle inside
+
+// Table
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+table
+  border-spacing: 0
+  display: block
+  overflow-x: auto
+  text-align: left
+  width: 100%
+
+td,
+th
+  border-bottom: .1rem solid $color-quinary
+  padding: 1.2rem 1.5rem
+
+  &:first-child
+    padding-left: 0
+
+  &:last-child
+    padding-right: 0
+
+@media (min-width: 40.0rem)
+
+  table
+    display: table
+    overflow-x: initial
+
