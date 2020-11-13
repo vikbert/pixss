@@ -1,33 +1,38 @@
 <script>
-  export let toggleClassName;
-  export let classOpen = "";
-
-  function handleClickHamburg() {
-    toggleClassName();
-  }
 </script>
 
+<style>
+  .topbar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .topbar-container span {
+    font-weight: normal;
+    font-size: 2.2rem;
+    padding-left: 1rem;
+  }
+  .github {
+    height: 3rem;
+  }
+</style>
+
 <nav class="topbar" aria-label="primary">
-  <div class={'hamburger ' + classOpen} on:click={handleClickHamburg}>
-    <span />
-    <span />
-    <span />
-  </div>
-
-  <div class="logo-link">
-    <div class="logo-small">
+  <div class="container topbar-container">
+    <div class="logo">
       <img class="logo" src="./static/app-small.png" alt="logo" />
+      <span>Pixss</span>
     </div>
-    <h1 class="title">Pixss</h1>
-  </div>
-
-  <div class="github">
-    <a href="https://github.com/vikbert/pixss" target="_blank">
+    <a class="github" href="https://github.com/vikbert/pixss" target="_blank">
       <svg
         height="30"
+        width="30"
         viewBox="0 0 16 16"
         version="1.1"
-        width="64"
         aria-hidden="true"
         class="octicon octicon-mark-github v-align-middle">
         <path
