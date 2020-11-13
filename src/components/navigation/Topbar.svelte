@@ -19,6 +19,9 @@
   .github {
     height: 3rem;
   }
+  .github:hover {
+    color: rgb(123, 32, 131);
+  }
 </style>
 
 <nav class="topbar" aria-label="primary">
