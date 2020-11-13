@@ -3,20 +3,16 @@
   import HeroHome from "./hero/HeroHome.svelte";
   import Tabs from "./tabs/index.svelte";
   import Topbar from "./navigation/Topbar.svelte";
-  import Sidebar from "./navigation/Sidebar.svelte";
 
   let classOpen = "";
 
   function toggleClassName() {
     classOpen = classOpen ? "" : "open";
   }
-
-  let url = "";
 </script>
 
 <header>
   <Topbar {toggleClassName} {classOpen} />
-  <Sidebar {classOpen} />
 </header>
 
 <main>

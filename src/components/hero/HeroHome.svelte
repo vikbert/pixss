@@ -1,3 +1,9 @@
+<style>
+  #logo-hero {
+    width: 90%;
+  }
+</style>
+
 <div class="container flex-centered">
   <div class="hero-content has-text-centered">
     <div class="logo-large">
