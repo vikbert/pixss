@@ -5,23 +5,13 @@
       <div class="showcase-content">
         <h3 class="my-0">Layout</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          explicabo rem reprehenderit inventore accusamus magni! Laborum,
-          maiores voluptas?
-        </p>
-      </div>
-    </div>
-
-    <div class="showcase">
-      <div class="showcase-icon">
-        <span class="icon icon-insert-template" />
-      </div>
-      <div class="showcase-content">
-        <h3 class="my-0">Form</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          explicabo rem reprehenderit inventore accusamus magni! Laborum,
-          maiores voluptas?
+          Design the structure of the webpage with these CSS classes
+          <code>.topbar</code>
+          <code>.sidebar</code>
+          <code>.main</code>
+          <code>.footer</code>
+          <code>.container</code>
+          <code>.hero</code>
         </p>
       </div>
     </div>
@@ -39,26 +29,33 @@
     </div>
 
     <div class="showcase">
-      <div class="showcase-icon"><span class="icon icon-stack" /></div>
+      <div class="showcase-icon">
+        <span class="icon icon-insert-template" />
+      </div>
       <div class="showcase-content">
-        <h3 class="my-0">Widget</h3>
+        <h3 class="my-0">Form</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          explicabo rem reprehenderit inventore accusamus magni! Laborum,
-          maiores voluptas?
+          Essential form controls for minimal and pragmatical use:
+          <code> button </code>
+          <code> input </code>
+          <code> textfield </code>
+          <code> checkbox </code>
+          <code> radio </code>
+          <code> select </code>
         </p>
       </div>
     </div>
   </div>
   <div class="column">
     <div class="showcase">
-      <div class="showcase-icon"><span class="icon icon-bubbles4" /></div>
+      <div class="showcase-icon"><span class="icon icon-stack" /></div>
       <div class="showcase-content">
-        <h3 class="my-0">Feeback</h3>
+        <h3 class="my-0">Widget</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          explicabo rem reprehenderit inventore accusamus magni! Laborum,
-          maiores voluptas?
+          Common used UX elements that only require a single CSS class, such as
+          <code>.card</code>
+          <code>.popup</code>
+          <code>.showcase</code>
         </p>
       </div>
     </div>

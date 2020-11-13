@@ -22,7 +22,7 @@
   <section class="container">
     <Tabs />
   </section>
-  <section class="container">
+  <section class="container my-2">
     <Showcase />
   </section>
 </main>
