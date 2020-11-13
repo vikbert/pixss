@@ -21,9 +21,10 @@
       <div class="showcase-content">
         <h3 class="my-0">Navigation</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          explicabo rem reprehenderit inventore accusamus magni! Laborum,
-          maiores voluptas?
+          Navigate the page content or links with classes like:
+          <code> .topbar </code>
+          <code>.sidebar</code>
+          <code>.tabs</code>
         </p>
       </div>
     </div>
@@ -65,9 +66,19 @@
       <div class="showcase-content">
         <h3 class="my-0">Utils</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          explicabo rem reprehenderit inventore accusamus magni! Laborum,
-          maiores voluptas?
+          Focus on building complex components by use the most common used
+          utilities:
+          <code>.is-rounded</code>
+          <code>.super-centered</code>
+          <code>.float-left</code>
+          <code>.float-right</code>
+          <code>.mx-*</code>
+          <code>.my-*</code>
+          <code>.px-*</code>
+          <code>.py-*</code>
+          <code>.is-rounded</code>
+          <code>.icon-close</code>
+          <code>.hamburger</code>
         </p>
       </div>
     </div>
