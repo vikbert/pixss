@@ -1,3 +1,7 @@
+<script>
+  import Note from "../shared/Note.svelte";
+</script>
+
 <div class="row">
   <div class="column">
     <div class="showcase">
@@ -69,7 +73,7 @@
           Focus on building complex components by use the most common used
           utilities:
           <code>.is-rounded</code>
-          <code>.super-centered</code>
+          <code>.centered-xy</code>
           <code>.float-left</code>
           <code>.float-right</code>
           <code>.mx-*</code>

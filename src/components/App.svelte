@@ -1,36 +1,27 @@
 <script>
-  import Showcase from "./showcase/Showcase.svelte";
-  import HeroHome from "./hero/HeroHome.svelte";
-  import Tabs from "./tabs/Tabs.svelte";
-  import Topbar from "./navigation/Topbar.svelte";
-  import Register from "./form/Register.svelte";
+  import Topbar from "./global/Topbar.svelte";
+  import Footer from "./global/Footer.svelte";
+  import PageHome from "./pages/PageHome.svelte";
+  import { currentTab } from "./store";
+  import FormDemo from "./demos/FormDemo.svelte";
 
-  let classOpen = "";
+  let tabName;
 
-  function toggleClassName() {
-    classOpen = classOpen ? "" : "open";
-  }
+  const unsubscribe = currentTab.subscribe((value) => {
+    tabName = value;
+  });
 </script>
 
 <header>
-  <Topbar {toggleClassName} {classOpen} />
+  <Topbar />
 </header>
 
-<main>
-  <section class="hero is-primary">
-    <HeroHome />
-  </section>
-  <section class="container">
-    <Tabs />
-  </section>
-  <section class="container my-2">
-    <Showcase />
-  </section>
-  <section class="container demos">
-    <hr />
-    <Register />
-  </section>
+<main class="main">
+  {#if tabName === 'home'}
+    <PageHome />
+  {:else}
+    <FormDemo />
+  {/if}
 </main>
-<footer class="super-centered">
-  <div class="">Pixss ♥️ Berlin © 2020</div>
-</footer>
+
+<Footer />

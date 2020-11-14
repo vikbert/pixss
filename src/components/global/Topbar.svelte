@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <style>
   .topbar-container {
     display: flex;
