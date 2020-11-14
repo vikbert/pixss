@@ -1,22 +1,29 @@
-// Utility
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
+// position
 .super-centered
   display: grid
   place-items: center
 
 // Others
-// ––––––––––––––––––––––––––––––––––––––––––––––––––
 .is-rounded
   border-radius: .4rem
 
-.clearfix // Clear a float with .clearfix
-  &:after
-    clear: both
-    content: ' ' // The space content is one way to avoid an Opera bug.
-    display: table
-
+// floating
 .float-left
   float: left
 
 .float-right
   float: right
+
+// text alignment
+$alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'right': 'right')
+@each $alignment, $text-align in $alignments
+  .text-#{$alignment}
+    text-align: #{$text-align} !important
+
+// opacity
+.opacity-25
+  opacity: .25
+.opacity-50
+  opacity: .50
+.opacity-75
+  opacity: .75

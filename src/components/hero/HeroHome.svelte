@@ -1,15 +1,13 @@
 <style>
-  .logo-hero {
-    filter: invert(1);
+  h5 {
+    opacity: 0.75;
   }
 </style>
 
-<div class="container flex-centered">
-  <div class="hero-content has-text-centered">
-    <img class="logo-hero" src="./static/app-small.png" alt="logo" />
-    <h3>Pixss</h3>
-    <p>A lightweight pragmatic CSS Framework</p>
-
-    <button class="is-outlined is-rounded">Getting Starte</button>
+<div class="container super-centered">
+  <div class="text-centered my-2">
+    <img class="my-2" width="200" src="./static/rocket.svg" alt="" />
+    <h2>A Pragmatic CSS For a Minimalist</h2>
+    <button class="is-rounded is-outlined">Download only ~5kb</button>
   </div>
 </div>

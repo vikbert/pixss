@@ -3,6 +3,7 @@
   import HeroHome from "./hero/HeroHome.svelte";
   import Tabs from "./tabs/Tabs.svelte";
   import Topbar from "./navigation/Topbar.svelte";
+  import Register from "./form/Register.svelte";
 
   let classOpen = "";
 
@@ -24,6 +25,10 @@
   </section>
   <section class="container my-2">
     <Showcase />
+  </section>
+  <section class="container demos">
+    <hr />
+    <Register />
   </section>
 </main>
 <footer class="super-centered">
