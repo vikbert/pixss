@@ -8,16 +8,13 @@
     display: flex;
     align-items: center;
   }
-  .topbar-container span {
+  span {
     font-weight: normal;
     font-size: 2.2rem;
     padding-left: 1rem;
   }
   .github {
     height: 3rem;
-  }
-  .github:hover {
-    color: rgb(123, 32, 131);
   }
 </style>
 
