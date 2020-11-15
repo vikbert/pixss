@@ -1,7 +1,14 @@
 <script>
   export let pictureUrl = "./static/layout.svg";
-  export let prictureWdith = "270";
+  export let prictureWdith = "370";
 </script>
+
+<style>
+  .picture {
+    height: 25.5rem;
+    overflow: hidden;
+  }
+</style>
 
 <div class="hero is-primary">
   <div class="container">
