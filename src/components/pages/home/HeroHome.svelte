@@ -1,5 +1,18 @@
 <script>
   import HeroShowcase from "../../shared/HeroShowcase.svelte";
+  const hostUrl = location.origin;
+  const cssUrl = hostUrl.includes("localhost")
+    ? hostUrl + "/styles/pixss.min.css"
+    : "/pixss/styles/pixss.min.css";
+
+  function copyToClipboard(text) {
+    const elem = document.createElement("textarea");
+    elem.value = text;
+    document.body.appendChild(elem);
+    elem.select();
+    document.execCommand("copy");
+    document.body.removeChild(elem);
+  }
 </script>
 
 <style>
@@ -21,6 +34,9 @@
     <h4 class="bold opacity-50">Small but good enough</h4>
     <div>
       <button class="is-rounded is-outlined">Download only ~5kb</button>
+      <button
+        class="is-rounded is-outlined"
+        on:click={() => copyToClipboard(cssUrl)}>Copy CSS link</button>
     </div>
   </div>
 </HeroShowcase>
