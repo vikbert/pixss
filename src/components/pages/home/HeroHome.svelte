@@ -3,7 +3,6 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    margin: 4rem 0;
   }
   .box {
     display: grid;

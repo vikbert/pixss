@@ -1,7 +1,3 @@
-<script>
-  import Note from "../shared/Note.svelte";
-</script>
-
 <div class="row">
   <div class="column">
     <div class="showcase">

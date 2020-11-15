@@ -9,9 +9,10 @@
     align-items: center;
   }
   span {
-    font-weight: normal;
-    font-size: 2.2rem;
-    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 2.8rem;
+    padding-left: 1.4rem;
+    opacity: 0.95;
   }
   .github {
     height: 3rem;
@@ -22,7 +23,7 @@
   <div class="container topbar-container">
     <div class="logo">
       <img class="logo" src="./static/app-small.png" alt="logo" />
-      <span>Pixss</span>
+      <span>PIXSS</span>
     </div>
     <a class="github" href="https://github.com/vikbert/pixss" target="_blank">
       <svg

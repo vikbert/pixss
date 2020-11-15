@@ -12,9 +12,7 @@
     white-space: nowrap
     ul
         align-items: center
-        border-bottom-color: $grey-light
-        border-bottom-style: solid
-        border-bottom-width: 1px
+        border-bottom: 1px solid $grey-light
         display: flex
         flex-grow: 1
         flex-shrink: 0
@@ -24,9 +22,6 @@
         margin: 0
     a
         align-items: center
-        border-bottom-color: $grey-light
-        border-bottom-style: solid
-        border-bottom-width: 1px
         display: flex
         justify-content: center
         margin-bottom: -1px
@@ -34,7 +29,9 @@
         vertical-align: top
         color: $grey
         &:hover
-            border-bottom-color: $color-primary
+            color: $color-primary
     li.is-active a
+        font-weight: bold
         color: $color-primary
         border-bottom: 4px solid $color-primary
+        margin-top: -3px

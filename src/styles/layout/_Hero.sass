@@ -1,9 +1,22 @@
 
 // Hero
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
-
+$hero-min-height: 10rem
 .hero
-    color: #ffffff
-    display: grid
-    place-items: center;
-    min-height: 30rem;
+  color: #ffffff
+  padding: 6rem 0
+  .container
+    min-height: $hero-min-height
+  .column
+    display: flex
+    &.picture
+      justify-content: flex-end
+    &.description
+      flex-direction: column
+      justify-content: center
+      min-height: $hero-min-height
+      @media (max-width: 640px)
+        align-items: center
+        // text-align: center
+
+

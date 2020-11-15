@@ -1,6 +1,3 @@
-<style>
-</style>
-
 <h4 class="strong">Form Demo</h4>
 <div class="row">
   <div class="column is-rounded">

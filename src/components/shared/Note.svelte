@@ -5,7 +5,6 @@
     margin: 0 0 2rem 0;
   }
   img {
-    /* background: #6d6865; */
     width: 4rem;
     margin: 1rem;
     border-radius: 50%;
@@ -18,7 +17,7 @@
 </style>
 
 <div class="root">
-  <img src="./static/hint2.png" alt="" />
+  <img src="./static/hint.png" alt="" />
   <span>
     <slot />
   </span>

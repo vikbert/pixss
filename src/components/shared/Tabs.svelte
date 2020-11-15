@@ -47,4 +47,4 @@
     </li>
   </ul>
 </div>
-<Note><span>click on the tab to see code demo for each category</span></Note>
+<slot />

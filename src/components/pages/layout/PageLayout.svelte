@@ -1,27 +1,24 @@
 <script>
-  import Tabs from "../shared/Tabs.svelte";
-  import Note from "../shared/Note.svelte";
-
-  $: console.log("🔥 demo form loaded");
+  import HeroShowcase from "../../shared/HeroShowcase.svelte";
+  import Note from "../../shared/Note.svelte";
+  import Tabs from "../../shared/Tabs.svelte";
 </script>
 
-<section class="hero is-info">
-  <div class="container centered-xy">
-    <div class="text-centered my-2">
-      <img class="my-2" width="200" src="./static/rocket.svg" alt="" />
-      <h2>Design the structure of the webpage</h2>
-    </div>
-  </div>
-</section>
+<HeroShowcase>
+  <h1 class="bold">Layout</h1>
+  <span class="bold">construct the popular layout with
+    <code>.topbar</code>
+    <code>sidebar</code>
+    <code>.footer</code>, make the page responsive with
+    <code>.row</code>
+    <code>.column</code>
+  </span>
+</HeroShowcase>
 <div class="container">
   <Tabs />
-  <Note>
-    Use the classes
-    <code>.topbar</code>,
-    <code>.main</code>,
-    <code>.footer</code>
-    to set the common layout
-  </Note>
+  <div class="shadow-lg">
+    <Note>Layout Demo</Note>
+  </div>
   <div class=" editor">
     <iframe
       src="https://codesandbox.io/embed/pixss-layout-94nuy?fontsize=14&hidenavigation=1&theme=dark"
