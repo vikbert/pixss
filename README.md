@@ -1,7 +1,5 @@
-<div style="display: grid; place-items: center;">
-    <a href="https://vikbert.github.io/pixss/">
+<div style="text-align: center;">
       <img src="app-small.png" width="50px" alt="pixss" />
-    </a>
 </div>
 
 <h3 align="center">A pragmatic CSS for Minimalist</h3>
