@@ -1,19 +1,17 @@
-<div style="text-align: center;">
-      <img src="app-small.png" width="50px" alt="pixss" />
+<div align="center">
+  <img src="app-small.png" width="50px" alt="pixss" />
+  <h3>A pragmatic CSS for Minimalist</h3>
+  <p>Pixss provides a minimal setup of styles for a programatic and clean starting point.  <strong>Only < 5 kb gzipped</strong>! It is specially designed for better performance and higher productivity. </p>
+
+  <p>
+    <a href="#">
+      <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
+    </a>
+  </p>
 </div>
-
-<h3 align="center">A pragmatic CSS for Minimalist</h3>
-<p align="center">Pixss provides a minimal setup of styles for a programatic and clean starting point.  <strong>Only < 5 kb gzipped</strong>! It is specially designed for better performance and higher productivity. </p>
-
-<p align="center">
- <a href="https://github.com/vikbert/pixss/pulls">
-   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
- </a>
- <a href="#">
-  <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
- </a>
-
-</p>
 
 ---
 
