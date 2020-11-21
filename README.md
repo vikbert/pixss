@@ -1,45 +1,46 @@
-## How to dev
 
+<div style="text-align: center">
+  <img style="width: 50px;" src="app.png">
+  <h1>PIXSS</h1>
+  <h5> 🚀 gzipped size: < 5kb </h5>
+</div>
+
+
+Pixss provides a minimal setup of styles for a programatic and clean starting point. Only **< 5 kb gzipped**! It is specially designed for better performance and higher productivity. 
+
+<div style="text-align: center">
+  <h5>🎯 Small but good enough</h5>
+  <span>sample with @pixss</span>
+</div>
+
+<div style="text-align: center">
+  <img style="width: 800px;" src="sample.png">
+</div>
+
+## 📚 Document with [Demo](https://vikbert.github.io/pixss/)
+
+## 🗳 Download with `npm`
 ```bash
-npm run start
+ npm install pixss 
 ```
 
-## How to deploy
-
+Then use the css files from `node_modules/pixss`
 ```bash
-bash deploy.sh
+├── dist
+│   └── styles
+│       ├── pixss.css
+│       ├── pixss.css.map
+│       ├── pixss.min.css
+│       └── pixss.min.css.map
 ```
 
-## Source Structure
 
-| Category   | Element    | Description | Status |
-| ---------- | ---------- | ----------- | ------ |
-| base       | base       |             | ✅     |
-|            | color      |             | ✅     |
-|            | font       |             | ✅     |
-|            | reset      |             | ✅     |
-| layout     | appbar     |             | ✅     |
-|            | main       |             | ✅     |
-|            | hero       |             | ✅     |
-|            | footer     |             | ✅     |
-| navigation | drawer     |             | ✅     |
-|            | tabs       |             | ✅     |
-| display    | code       |             | ✅     |
-|            | divider    |             | ✅     |
-|            | link       |             | ✅     |
-|            | list       |             | ✅     |
-|            | sample     |             | ✅     |
-|            | spacing    |             | ✅     |
-|            | table      |             | ✅     |
-|            | typography |             | ✅     |
-| form       | button     |             | ✅     |
-|            | checkbox   |             | ✅     |
-|            | form       |             | ✅     |
-|            | radio      |             | ✅     |
-|            | select     |             | ✅     |  |
-| feedback   | overlay    |             | ❌     |
-|            | toast      |             | ❌     |
-| surface    | card       |             | ✅     |
-|            | container  |             | ✅     |
-| utils      | icons      |             | ✅     |
-|            | utils      |             | ✅     |
+
+## 🗳  Download from `Homepage`
+click on the download button on homepage.
+[pixss home]([https://link](https://vikbert.github.io/pixss/))
+
+## License
+MIT © vikbert
+
+
