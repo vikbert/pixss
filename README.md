@@ -1,4 +1,4 @@
-<div align="center">
+<div style="display: grid; place-items: center;">
     <a href="https://vikbert.github.io/pixss/">
       <img src="app-small.png" width="50px" alt="pixss" />
     </a>
