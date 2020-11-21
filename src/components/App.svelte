@@ -20,7 +20,7 @@
 <header>
   <Topbar />
 </header>
-
+{@debug tabName}
 <main class="main">
   {#if tabName === 'home'}
     <PageHome />

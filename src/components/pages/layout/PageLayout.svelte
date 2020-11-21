@@ -17,7 +17,11 @@
 <div class="container">
   <Tabs />
   <div class="shadow-lg">
-    <Note>Layout Demo</Note>
+    <Note>
+      <ul>
+        <li><code>.topbar</code> define a top bar with fixed position</li>
+      </ul>
+    </Note>
   </div>
   <div class=" editor">
     <iframe
