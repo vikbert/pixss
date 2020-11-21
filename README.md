@@ -1,6 +1,6 @@
 <h1 align="center">
     <a href="https://vikbert.github.io/pixss/">
-    <img src="app-small.png" width="50px" alt="pixss">
+    <img src="app-small.png" width="50px" alt="pixss" />
     </a>
 </h1>
 
