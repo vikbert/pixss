@@ -1,10 +1,11 @@
 <h1 align="center">
-    <a href="https://vikbert.github.io/pixss/"><img src="app-small.png" width="50px" alt="< pixss >"></a>
+    <a href="https://vikbert.github.io/pixss/">
+    <img src="app-small.png" width="50px" alt="< pixss >">
+    </a>
 </h1>
 
 <h3 align="center">A pragmatic CSS for Minimalist</h3>
-
----
+<p align="center">Pixss provides a minimal setup of styles for a programatic and clean starting point.  <strong>Only < 5 kb gzipped</strong>! It is specially designed for better performance and higher productivity. </p>
 
 <p align="center">
  <a href="https://github.com/vikbert/pixss/pulls">
@@ -13,13 +14,14 @@
  <a href="#">
   <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
  </a>
+
 </p>
 
-Pixss provides a minimal setup of styles for a programatic and clean starting point. Only **< 5 kb gzipped**! It is specially designed for better performance and higher productivity.
+---
 
 <div style="text-align: center">
-  <h3>🎯 Small but good enough</h3>
-  <span>sample with @pixss</span>
+  <h3>🎯 Small but good enough 🎯 </h3>
+  <span>get the things done faster with @pixss</span>
 </div>
 
 <div style="text-align: center">
