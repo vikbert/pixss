@@ -52,11 +52,6 @@
     "jsxSingleQuote": false,
     "trailingComma": "all"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "**/*": [
       "prettier-standard --format",
