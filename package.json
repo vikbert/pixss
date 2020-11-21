@@ -45,6 +45,9 @@
     "dev": "run-p watch:sass watch:svelte",
     "start": "sirv dist"
   },
+  "files": [
+    "dist/styles"
+  ],
   "prettier": {
     "jsxSingleQuote": false,
     "trailingComma": "all"
