@@ -1,13 +1,24 @@
-<div style="text-align: center">
-  <img style="width: 50px; float: right;" src="app-small.png">
-  <h1>PIXSS</h1>
-  <h5> 🚀 gzipped size: < 5kb </h5>
-</div>
+<h1 align="center">
+    <a href="https://vikbert.github.io/pixss/"><img src="app-small.png" width="50px" alt="< pixss >"></a>
+</h1>
+
+<h3 align="center">A pragmatic CSS for Minimalist</h3>
+
+---
+
+<p align="center">
+ <a href="https://github.com/vikbert/pixss/pulls">
+   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+ </a>
+ <a href="#">
+  <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
+ </a>
+</p>
 
 Pixss provides a minimal setup of styles for a programatic and clean starting point. Only **< 5 kb gzipped**! It is specially designed for better performance and higher productivity.
 
 <div style="text-align: center">
-  <h5>🎯 Small but good enough</h5>
+  <h3>🎯 Small but good enough</h3>
   <span>sample with @pixss</span>
 </div>
 
