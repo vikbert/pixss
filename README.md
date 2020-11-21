@@ -1,6 +1,6 @@
 
 <div style="text-align: center">
-  <img style="width: 50px;" src="app.png">
+  <img style="width: 50px;" src="app-small.png">
   <h1>PIXSS</h1>
   <h5> 🚀 gzipped size: < 5kb </h5>
 </div>
