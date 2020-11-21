@@ -15,3 +15,8 @@ package-lock.json
 package.js
 package.json
 test
+changelog
+package.json
+deploy.sh
+rollup.config.js
+sample.png
