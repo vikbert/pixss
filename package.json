@@ -61,7 +61,8 @@
     ]
   },
   "keywords": [
-    "css"
+    "css",
+    "sass"
   ],
   "author": "Xun Zhou <segentor@gmail.com>",
   "license": "MIT",
