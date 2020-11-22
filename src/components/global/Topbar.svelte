@@ -19,8 +19,8 @@
   }
 </style>
 
-<nav class="topbar" aria-label="primary">
-  <div class="container topbar-container">
+<nav class="topbar">
+  <div class="container space-between">
     <div class="logo">
       <img class="logo" src="./static/app-small.png" alt="logo" />
       <span>PIXSS</span>
