@@ -2,33 +2,31 @@
 // icons
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 .icon-close
+    position: absolute
+    right: 4px
+    top: 6px
     -moz-appearance: none
     -webkit-appearance: none
     border: none
-    background-color: $orange
     cursor: pointer
     pointer-events: auto
     display: inline-block
     flex-grow: 0
     flex-shrink: 0
     font-size: 0
-    height: 5rem
-    min-height: 5rem
-    max-height: 5rem
-    width: 20px
-    max-width: 5rem
-    min-width: 5rem
-    outline: none
-    position: absolute
-    right: 0
+    width: 4rem
+    height: 4rem
+    max-height: 4rem
+    max-width: 4rem
+
     &::before,
     &::after
-        background-color: $white
+        position: absolute
+        left: 50%
+        top: 50%
+        background-color: $grey-light
         content: ""
         display: block
-        left: 50%
-        position: absolute
-        top: 50%
         transform: translateX(-50%) translateY(-50%) rotate(45deg)
         transform-origin: center center
     &::before
@@ -39,9 +37,10 @@
         width: 2px
     &:hover,
     &:focus
-        background-color: $grey-light
+        background-color: #b5b5b52e
+        border-radius: 50%
     &:active
-        background-color: $grey-darker
+        background-color: #b5b5b57a
 
 .hamburger
     width: 24px
