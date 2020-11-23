@@ -3,18 +3,21 @@ set -e
 
 ### publish htmls to gh-pages branch
 npm run build
-mkdir -p gh-pages
-cp -rf dist/* gh-pages
-cd gh-pages
+mkdir -p gh-pages dist/docs
+cp -rf docs/.vuepress/dist/ dist/docs
 
-git init
-git add -A
 
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
-git commit -m "deploy: github gh-pages $DATE"
+# cp -rf dist/* gh-pages
+# cd gh-pages
 
-git push -f https://github.com/vikbert/pixss.git master:gh-pages
+# git init
+# git add -A
 
-cd -
-git pull
-rm -rf gh-pages
+# DATE=$(date '+%Y-%m-%d %H:%M:%S')
+# git commit -m "deploy: github gh-pages $DATE"
+
+# git push -f https://github.com/vikbert/pixss.git master:gh-pages
+
+# cd -
+# git pull
+# rm -rf gh-pages

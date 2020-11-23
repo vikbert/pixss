@@ -1,5 +1,4 @@
 # dist
-dist
 backup
 # dependencies
 bower_components
@@ -14,3 +13,5 @@ coverage
 
 # debug
 *.log
+docs
+gh-pages
