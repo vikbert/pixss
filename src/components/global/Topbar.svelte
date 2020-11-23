@@ -29,7 +29,7 @@
       <span>PIXSS</span>
     </div>
     <div class="nav">
-      <a class="link" href="/docs/">How To </a>
+      <a class="link" href="/demo">How To </a>
       <a class="github" href="https://github.com/vikbert/pixss" target="_blank">
         <svg
           height="30"
