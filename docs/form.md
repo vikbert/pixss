@@ -1,7 +1,5 @@
 # Form
 
-## checkbox
 
-## radio
 
 

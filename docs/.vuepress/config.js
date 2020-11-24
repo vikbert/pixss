@@ -1,5 +1,5 @@
 module.exports = {
-    title: "Pixss",
+    title: "PiXSS",
     description: "PiXSS | A minimal pragmatical css framework",
     head: [
         [
@@ -15,10 +15,19 @@ module.exports = {
     themeConfig: {
         lastUpdated: "Last Updated",
         docsDir: "docs",
-        nav: [{ text: "HowTo", link: "" }],
+        nav: [
+            {
+                text: "Live Demo",
+                link: "https://vikbert.github.io/pixss/demo/",
+            },
+        ],
         sidebar: [
             ["/", "HOME"],
             ["/layout", "Layout"],
+            ["/navigation", "Navigation"],
+            ["/form", "Form"],
+            ["/widget", "Widget"],
+            ["/utils", "Utils"],
         ],
     },
 };
