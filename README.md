@@ -24,7 +24,7 @@
   <img style="width: 800px;" src="sample.png">
 </div>
 
-## 📚 Document with [Demo](https://vikbert.github.io/pixss/)
+## 📚 Document with [Demo](https://vikbert.github.io/pixss/demo)
 
 ## 🗳 Download with `npm`
 

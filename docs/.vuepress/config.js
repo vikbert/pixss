@@ -1,6 +1,6 @@
 module.exports = {
     title: "Pixss",
-    description: "A pragmatical css framework for Minimalist",
+    description: "PiXSS | A minimal pragmatical css framework",
     head: [
         [
             "link",
@@ -11,7 +11,7 @@ module.exports = {
         ],
     ],
     plugins: [],
-    base: "/Pixss/",
+    base: "/pixss/",
     themeConfig: {
         lastUpdated: "Last Updated",
         docsDir: "docs",
