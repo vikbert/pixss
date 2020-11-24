@@ -4,12 +4,12 @@ set -e
 readonly GIT_REPO=https://github.com/vikbert/pixss.git
 
 ## build svelte demo pages
-#npm run build
+npm run build
 mkdir -p gh-pages/demo
 cp -rf dist/* gh-pages/demo
 
 ## build markdown
-#npm run docs:build
+npm run docs:build
 cp -rf docs/.vuepress/dist/* gh-pages
 
 # push to gh-pages
