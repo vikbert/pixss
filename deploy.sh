@@ -11,6 +11,7 @@ cp -rf dist/* gh-pages/demo
 ## build markdown
 npm run docs:build
 cp -rf docs/.vuepress/dist/* gh-pages
+cp -rf docs/img gh-pages
 
 # push to gh-pages
 cd gh-pages

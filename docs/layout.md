@@ -1,5 +1,10 @@
 # Layout
-construct the page layout with the common used classes easily.
+`pixss` defines the most necessary classes to construct the simple layout with the common used classes easily:
+- `.topbar`
+- `.sidebar`
+- `.main`
+- `.container`
+- `.footer`
 
 ![](img/layout.png)
 
