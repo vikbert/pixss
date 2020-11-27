@@ -34,13 +34,15 @@
 .outlined
   outline: 1px solid red
 
-// text aligment
+// text: alignment, width
 //-------------------------------------------
 $alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'right': 'right')
 @each $alignment, $text-align in $alignments
   .text-#{$alignment}
     text-align: #{$text-align} !important
 
+.fit-content
+  width: fit-content
 // opacitiy
 //-------------------------------------------
 .opacity-25

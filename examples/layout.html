@@ -5,48 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../dist/styles/pixss.min.css" />
     <title>Document</title>
+    <style>
+      .hero {
+        background-image: url(https://www.w3schools.com/howto/img_parallax.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav class="topbar">
         <div class="container space-between">
-          <div>logog</div>
-          <div>navigation</div>
+          <img src="https://www.flaticon.com/svg/static/icons/svg/174/174854.svg" alt="" width="40">
+          <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
         </div>
       </nav>
     </header>
-    <main>
-      <div class="hero is-primary">
+    <main class="main">
+      <div class="hero">
         <div class="container">
-          <div class="row">
             <div class="column description">
-              <h3>A minimal css framework</h3>
-              <h5>small but good enough</h5>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                quae error sed perspiciatis eum
-              </p>
+              <h1 class="is-secondary px-2 py-1 fit-content">pixss</h1>
+              <h5 class="is-secondary px-2 py-1 fit-content opacity-75">small but good enough</h5>
+              <span class="is-secondary px-2 py-1 opacity-75 fit-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
-            <div class="column">
-              <img src="../sample.png" alt="" />
-            </div>
-          </div>
         </div>
       </div>
       <div class="container my-2">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum eum
-        cum, praesentium veritatis quibusdam, perferendis assumenda tempore,
-        nesciunt laborum voluptatem fuga! Enim vero perspiciatis fugit
-        reprehenderit, excepturi autem tempora rem!
-      </div>
+        <h3>About pixss</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde labore adipisci reprehenderit alias culpa repudiandae tempore
+        <div class="row my-2">
+          <div class="column is-warning">
+            <div class="showcase">
+              <div class="showcase-icon">
+                <img src="group.png" alt="" width="40">
+              </div>
+              <div class="showcase-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et omnis qui earum, exercitationem asperiores possimus
+              </div>
+            </div>
+          </div>
+         <div class="column is-success">
+            <div class="showcase">
+              <div class="showcase-icon">
+                <img src="group.png" alt="" width="40">
+              </div>
+              <div class="showcase-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et omnis qui earum, exercitationem asperiores possimus
+              </div>
+            </div>
+         </div>
+         <div class="column is-info">
+            <div class="showcase">
+              <div class="showcase-icon">
+                <img src="group.png" alt="" width="40">
+              </div>
+              <div class="showcase-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et omnis qui earum, exercitationem asperiores possimus
+              </div>
+            </div>
+         </div>
+        </div>
 
-      <div class="container my-2">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti eum,
-        provident molestiae dolores sapiente nam perferendis odit aspernatur
-        nobis quasi error? Vero quasi delectus eum eos optio? Dolores, quia
-        repudiandae.
+        <h3>Something else</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus illo voluptatibus, suscipit unde blanditiis excepturi eum aut assumenda possimus neque? Doloribus voluptatibus et perferendis iusto facere aperiam, nisi reprehenderit recusandae!</p>
       </div>
     </main>
-    <footer class="centered-xy">footer</footer>
+    <footer class="footer">
+      <div class="container centered-xy">
+        footer content
+      </div>
+    </footer>
   </body>
 </html>
