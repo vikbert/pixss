@@ -2,37 +2,37 @@
 // tabs
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 .tabs
-    -webkit-overflow-scrolling: touch
-    align-items: stretch
+  -webkit-overflow-scrolling: touch
+  align-items: stretch
+  display: flex
+  font-size: 1.6rem
+  justify-content: space-between
+  overflow: hidden
+  overflow-x: auto
+  white-space: nowrap
+  padding-top: .5rem
+  ul
+    align-items: center
+    border-bottom: 1px solid $grey-light
     display: flex
-    font-size: 1.6rem
-    justify-content: space-between
-    overflow: hidden
-    overflow-x: auto
-    white-space: nowrap
-    padding-top: .5rem
-    ul
-        align-items: center
-        border-bottom: 1px solid $grey-light
-        display: flex
-        flex-grow: 1
-        flex-shrink: 0
-        justify-content: flex-start
+    flex-grow: 1
+    flex-shrink: 0
+    justify-content: flex-start
     li
-        display: block
-        margin: 0
+      display: block
+      margin: 0
     a
-        align-items: center
-        display: flex
-        justify-content: center
-        margin-bottom: -1px
-        padding: .5em 1em
-        vertical-align: top
-        color: $grey
-        &:hover
-            color: $color-primary
-    li.is-active a
-        font-weight: bold
+      align-items: center
+      display: flex
+      justify-content: center
+      margin-bottom: -1px
+      padding: .5em 1em
+      vertical-align: top
+      color: $grey
+      &:hover
         color: $color-primary
-        border-bottom: 4px solid $color-primary
-        margin-top: -3px
+    li.is-active a
+      font-weight: bold
+      color: $color-primary
+      border-bottom: 4px solid $color-primary
+      margin-top: -3px

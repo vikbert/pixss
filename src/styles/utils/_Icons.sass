@@ -2,113 +2,113 @@
 // icons
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 .icon-close
-    position: absolute
-    right: 4px
-    top: 6px
-    -moz-appearance: none
-    -webkit-appearance: none
-    border: none
-    cursor: pointer
-    pointer-events: auto
-    display: inline-block
-    flex-grow: 0
-    flex-shrink: 0
-    font-size: 0
-    width: 4rem
-    height: 4rem
-    max-height: 4rem
-    max-width: 4rem
+  position: absolute
+  right: 4px
+  top: 6px
+  -moz-appearance: none
+  -webkit-appearance: none
+  border: none
+  cursor: pointer
+  pointer-events: auto
+  display: inline-block
+  flex-grow: 0
+  flex-shrink: 0
+  font-size: 0
+  width: 4rem
+  height: 4rem
+  max-height: 4rem
+  max-width: 4rem
 
-    &::before,
-    &::after
-        position: absolute
-        left: 50%
-        top: 50%
-        background-color: $grey-light
-        content: ""
-        display: block
-        transform: translateX(-50%) translateY(-50%) rotate(45deg)
-        transform-origin: center center
+  &::before,
+  &::after
+    position: absolute
+    left: 50%
+    top: 50%
+    background-color: $grey-light
+    content: ""
+    display: block
+    transform: translateX(-50%) translateY(-50%) rotate(45deg)
+    transform-origin: center center
     &::before
-        height: 2px
-        width: 50%
+      height: 2px
+      width: 50%
     &::after
-        height: 50%
-        width: 2px
+      height: 50%
+      width: 2px
     &:hover,
     &:focus
-        background-color: #b5b5b52e
-        border-radius: 50%
+      background-color: #b5b5b52e
+      border-radius: 50%
     &:active
-        background-color: #b5b5b57a
+      background-color: #b5b5b57a
 
 .hamburger
-    width: 24px
-    height: 20px
-    position: relative
-    -webkit-transform: rotate(0deg)
-    -moz-transform: rotate(0deg)
-    -o-transform: rotate(0deg)
-    transform: rotate(0deg)
-    -webkit-transition: 0.5s ease-in-out
-    -moz-transition: 0.5s ease-in-out
-    -o-transition: 0.5s ease-in-out
-    transition: 0.5s ease-in-out
-    cursor: pointer
+  width: 24px
+  height: 20px
+  position: relative
+  -webkit-transform: rotate(0deg)
+  -moz-transform: rotate(0deg)
+  -o-transform: rotate(0deg)
+  transform: rotate(0deg)
+  -webkit-transition: 0.5s ease-in-out
+  -moz-transition: 0.5s ease-in-out
+  -o-transition: 0.5s ease-in-out
+  transition: 0.5s ease-in-out
+  cursor: pointer
 .hamburger span
-    display: block
-    background-color: #818082bf
-    position: absolute
-    height: 2px
-    width: 100%
-    border-radius: 9px
-    opacity: 1
-    left: 0
-    -webkit-transform: rotate(0deg)
-    -moz-transform: rotate(0deg)
-    -o-transform: rotate(0deg)
-    transform: rotate(0deg)
-    -webkit-transition: 0.25s ease-in-out
-    -moz-transition: 0.25s ease-in-out
-    -o-transition: 0.25s ease-in-out
-    transition: 0.25s ease-in-out
+  display: block
+  background-color: #818082bf
+  position: absolute
+  height: 2px
+  width: 100%
+  border-radius: 9px
+  opacity: 1
+  left: 0
+  -webkit-transform: rotate(0deg)
+  -moz-transform: rotate(0deg)
+  -o-transform: rotate(0deg)
+  transform: rotate(0deg)
+  -webkit-transition: 0.25s ease-in-out
+  -moz-transition: 0.25s ease-in-out
+  -o-transition: 0.25s ease-in-out
+  transition: 0.25s ease-in-out
 
 $einheit: 8px
 .hamburger span:nth-child(1)
-    top: 0 * $einheit
-    -webkit-transform-origin: left center
-    -moz-transform-origin: left center
-    -o-transform-origin: left center
-    transform-origin: left center
+  top: 0 * $einheit
+  -webkit-transform-origin: left center
+  -moz-transform-origin: left center
+  -o-transform-origin: left center
+  transform-origin: left center
 
 .hamburger span:nth-child(2)
-    top: $einheit
-    -webkit-transform-origin: left center
-    -moz-transform-origin: left center
-    -o-transform-origin: left center
-    transform-origin: left center
+  top: $einheit
+  -webkit-transform-origin: left center
+  -moz-transform-origin: left center
+  -o-transform-origin: left center
+  transform-origin: left center
 
 .hamburger span:nth-child(3)
-    top: 2 * $einheit
-    -webkit-transform-origin: left center
-    -moz-transform-origin: left center
-    -o-transform-origin: left center
-    transform-origin: left center
+  top: 2 * $einheit
+  -webkit-transform-origin: left center
+  -moz-transform-origin: left center
+  -o-transform-origin: left center
+  transform-origin: left center
 
 .hamburger.open span:nth-child(1)
-    -webkit-transform: rotate(45deg)
-    -moz-transform: rotate(45deg)
-    -o-transform: rotate(45deg)
-    transform: rotate(45deg)
+  -webkit-transform: rotate(45deg)
+  -moz-transform: rotate(45deg)
+  -o-transform: rotate(45deg)
+  transform: rotate(45deg)
 
 .hamburger.open span:nth-child(2)
-    width: 0%
-    opacity: 0
+  width: 0%
+  opacity: 0
 
 .hamburger.open span:nth-child(3)
-    -webkit-transform: rotate(-45deg)
-    -moz-transform: rotate(-45deg)
-    -o-transform: rotate(-45deg)
-    transform: rotate(-45deg)
-    top: 17px
-    left: 0
+  -webkit-transform: rotate(-45deg)
+  -moz-transform: rotate(-45deg)
+  -o-transform: rotate(-45deg)
+  transform: rotate(-45deg)
+  top: 17px
+  left: 0

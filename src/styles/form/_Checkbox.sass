@@ -1,31 +1,31 @@
-// checkbox + radio: 
+// checkbox + radio:
 // hide the original
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 $checkbox-size: 2rem
 input[type="checkbox"],input[type="radio"]
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+  position: absolute
+  opacity: 0
+  cursor: pointer
+  height: 0
+  width: 0
 
-// checkbox + radio: 
+// checkbox + radio:
 // adjust the position of label text
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 .checkbox,.radio
-  display: block;
-  position: relative;
+  display: block
+  position: relative
   vertical-align: center
-  padding-left: 30px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  padding-left: 30px
+  margin-bottom: 12px
+  cursor: pointer
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
   line-height: $checkbox-size
 
-// checkbox + radio: 
+// checkbox + radio:
 // create the custom UX element
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 .checkbox > span, .radio > span
@@ -34,14 +34,14 @@ input[type="checkbox"],input[type="radio"]
   left: 0
   height: $checkbox-size
   width: $checkbox-size
-  background-color: #fffff;
-  border: 2px solid $color-primary;
+  background-color: #fffff
+  border: 2px solid $color-primary
 
 /* create the custom radio */
 .radio > span
   border-radius: 50%
 
-// checkbox + radio: 
+// checkbox + radio:
 // hide the indicator element, if not checked
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 .checkbox span:after, .radio span:after
@@ -80,10 +80,9 @@ input[type="checkbox"],input[type="radio"]
   border-radius: 50%
   background-color: #ffffff
 
-
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 // DISABLED ⭕️ ⭕️ ⭕️ ⭕️
-// ––––––––––––––––––––––––––––––––––––––––––––––––––  
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
 .checkbox input[type=checkbox][disabled] ~ span,
 .radio input[type=radio][disabled] ~ span
   background-color: $grey
@@ -95,5 +94,5 @@ input[type="checkbox"],input[type="radio"]
   left: 0
   height: $checkbox-size
   width: $checkbox-size
-  background-color: #fffff;
-  border: 2px solid $grey;
+  background-color: #fffff
+  border: 2px solid $grey
