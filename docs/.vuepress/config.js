@@ -1,6 +1,6 @@
 module.exports = {
-    title: "PiXSS",
-    description: "PiXSS | A minimal pragmatical css framework",
+    title: "PIXSS",
+    description: "PIXSS | A minimal pragmatical css framework",
     head: [
         [
             "link",
@@ -8,7 +8,14 @@ module.exports = {
                 rel: "stylesheet",
                 href: `https://fonts.googleapis.com/css?family=Major+Mono+Display`,
             },
-        ],
+      ],
+      [
+        "link",
+        {
+            rel: "stylesheet",
+            href: `https://vikbert.github.io/pixss/demo/styles/pixss.min.css`,
+        },
+      ],
     ],
     plugins: [],
     base: "/pixss/",

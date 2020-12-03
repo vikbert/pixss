@@ -6,7 +6,7 @@
 - `.container`
 - `.footer`
 
-![](img/layout.png)
+![](images/layout.png)
 
 ## `.topbar`
 define the Topbar with `fixed` position in page header. By using utility class `space-between` the child nodes can be displayed like the following example: the `logo` element will be positioned on the left, and the `navigation` elements will be showed on the right side.

@@ -46,7 +46,9 @@
         "watch:sass": "onchange src/styles -- run-p build:sass",
         "watch:svelte": "rollup -c -w",
         "dev": "run-p watch:sass watch:svelte",
-        "start": "sirv dist"
+        "start": "sirv dist",
+        "preexamples": "copyfiles dist/styles/* examples/",
+        "examples": "sirv examples"
     },
     "files": [
         "dist/styles"

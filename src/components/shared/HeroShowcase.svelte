@@ -8,6 +8,12 @@
     height: 25.5rem;
     overflow: hidden;
   }
+  @media (max-width: 640px) {
+    .picture {
+      display: none;
+    }
+  }
+
 </style>
 
 <div class="hero is-primary">

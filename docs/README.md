@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://vikbert.github.io/pixss/demo/static/app-small.png" alt="" />
+<img src="https://vikbert.github.io/pixss/demo/static/app-small.png" alt="" width="45" />
 
 <h1 style="font-weight: bolder; color: purple; margin-top: 0px"> PIXSS</h1>
 
@@ -19,6 +19,8 @@
     <a href="#">
       <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
     </a>
+    
+    <button class=" button is-primary is-rounded">download</button>
   </p>
 </div>
 

@@ -3,7 +3,7 @@
   const hostUrl = location.origin;
   const cssUrl = hostUrl.includes("localhost")
     ? hostUrl + "/styles/pixss.min.css"
-    : hostUrl + "/pixss/styles/pixss.min.css";
+    : hostUrl + "/pixss/demo/styles/pixss.min.css";
 
   function copyToClipboard(text) {
     const elem = document.createElement("textarea");
@@ -33,7 +33,7 @@
     <h3 class="bold opacity-75">A pragmatic CSS for Minimalist</h3>
     <h4 class="bold opacity-50">Small but good enough</h4>
     <div>
-      <a href="http://localhost:5000/styles/pixss.min.css" download>
+      <a href={cssUrl} download>
         <button class="is-rounded is-outlined">Download only ~5kb</button></a>
       <button
         class="is-rounded is-outlined"

@@ -11,6 +11,7 @@
       <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
     </a>
   </p>
+  <button class="is-primary">download</button>
 </div>
 
 ---
