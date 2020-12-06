@@ -495,33 +495,8 @@ h6 {
   box-shadow: 10px -10px 9px -11px rgba(0, 0, 0, 0.35);
 }
 
-.sidebar.is-open {
+.sidebar.open {
   left: 0px;
-}
-
-.sidebar.is-open .items {
-  margin: 1rem 0;
-}
-
-.sidebar.is-open .items a.item {
-  display: block;
-  padding: .8rem 2.4rem;
-  border: none;
-  outline: none;
-  color: #363636;
-}
-
-.sidebar.is-open .items a.item.active {
-  color: #7b2083;
-  font-weight: bolder;
-}
-
-.sidebar.is-open .items a.item.active:hover {
-  background-color: #f5f5f5;
-}
-
-.sidebar.is-open .items a.item.active:hover:focus {
-  background-color: #d1d1d1;
 }
 
 .tabs {
@@ -1108,56 +1083,7 @@ input[type="checkbox"], input[type="radio"] {
   outline: 1px solid red;
 }
 
-.icon-close {
-  position: absolute;
-  right: 4px;
-  top: 6px;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  border: none;
-  cursor: pointer;
-  pointer-events: auto;
-  display: inline-block;
-  flex-grow: 0;
-  flex-shrink: 0;
-  font-size: 0;
-  width: 4rem;
-  height: 4rem;
-  max-height: 4rem;
-  max-width: 4rem;
-}
-
-.icon-close::before, .icon-close::after {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background-color: #b5b5b5;
-  content: "";
-  display: block;
-  transform: translateX(-50%) translateY(-50%) rotate(45deg);
-  transform-origin: center center;
-}
-
-.icon-close::before::before, .icon-close::after::before {
-  height: 2px;
-  width: 50%;
-}
-
-.icon-close::before::after, .icon-close::after::after {
-  height: 50%;
-  width: 2px;
-}
-
-.icon-close::before:hover, .icon-close::before:focus, .icon-close::after:hover, .icon-close::after:focus {
-  background-color: #b5b5b52e;
-  border-radius: 50%;
-}
-
-.icon-close::before:active, .icon-close::after:active {
-  background-color: #b5b5b57a;
-}
-
-.hamburger {
+.burger {
   width: 24px;
   height: 20px;
   position: relative;
@@ -1166,9 +1092,9 @@ input[type="checkbox"], input[type="radio"] {
   cursor: pointer;
 }
 
-.hamburger span {
+.burger span {
   display: block;
-  background-color: #818082bf;
+  background-color: #59585abf;
   position: absolute;
   height: 2px;
   width: 100%;
@@ -1179,31 +1105,31 @@ input[type="checkbox"], input[type="radio"] {
   transition: 0.25s ease-in-out;
 }
 
-.hamburger span:nth-child(1) {
+.burger span:nth-child(1) {
   top: 0px;
   transform-origin: left center;
 }
 
-.hamburger span:nth-child(2) {
+.burger span:nth-child(2) {
   top: 8px;
   transform-origin: left center;
 }
 
-.hamburger span:nth-child(3) {
+.burger span:nth-child(3) {
   top: 16px;
   transform-origin: left center;
 }
 
-.hamburger.open span:nth-child(1) {
+.burger.open span:nth-child(1) {
   transform: rotate(45deg);
 }
 
-.hamburger.open span:nth-child(2) {
+.burger.open span:nth-child(2) {
   width: 0%;
   opacity: 0;
 }
 
-.hamburger.open span:nth-child(3) {
+.burger.open span:nth-child(3) {
   transform: rotate(-45deg);
   top: 17px;
   left: 0;

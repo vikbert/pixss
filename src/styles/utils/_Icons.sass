@@ -1,48 +1,7 @@
 
 // icons
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
-.icon-close
-  position: absolute
-  right: 4px
-  top: 6px
-  -moz-appearance: none
-  -webkit-appearance: none
-  border: none
-  cursor: pointer
-  pointer-events: auto
-  display: inline-block
-  flex-grow: 0
-  flex-shrink: 0
-  font-size: 0
-  width: 4rem
-  height: 4rem
-  max-height: 4rem
-  max-width: 4rem
-
-  &::before,
-  &::after
-    position: absolute
-    left: 50%
-    top: 50%
-    background-color: $grey-light
-    content: ""
-    display: block
-    transform: translateX(-50%) translateY(-50%) rotate(45deg)
-    transform-origin: center center
-    &::before
-      height: 2px
-      width: 50%
-    &::after
-      height: 50%
-      width: 2px
-    &:hover,
-    &:focus
-      background-color: #b5b5b52e
-      border-radius: 50%
-    &:active
-      background-color: #b5b5b57a
-
-.hamburger
+.burger
   width: 24px
   height: 20px
   position: relative
@@ -55,9 +14,9 @@
   -o-transition: 0.5s ease-in-out
   transition: 0.5s ease-in-out
   cursor: pointer
-.hamburger span
+.burger span
   display: block
-  background-color: #818082bf
+  background-color: #59585abf
   position: absolute
   height: 2px
   width: 100%
@@ -74,38 +33,38 @@
   transition: 0.25s ease-in-out
 
 $einheit: 8px
-.hamburger span:nth-child(1)
+.burger span:nth-child(1)
   top: 0 * $einheit
   -webkit-transform-origin: left center
   -moz-transform-origin: left center
   -o-transform-origin: left center
   transform-origin: left center
 
-.hamburger span:nth-child(2)
+.burger span:nth-child(2)
   top: $einheit
   -webkit-transform-origin: left center
   -moz-transform-origin: left center
   -o-transform-origin: left center
   transform-origin: left center
 
-.hamburger span:nth-child(3)
+.burger span:nth-child(3)
   top: 2 * $einheit
   -webkit-transform-origin: left center
   -moz-transform-origin: left center
   -o-transform-origin: left center
   transform-origin: left center
 
-.hamburger.open span:nth-child(1)
+.burger.open span:nth-child(1)
   -webkit-transform: rotate(45deg)
   -moz-transform: rotate(45deg)
   -o-transform: rotate(45deg)
   transform: rotate(45deg)
 
-.hamburger.open span:nth-child(2)
+.burger.open span:nth-child(2)
   width: 0%
   opacity: 0
 
-.hamburger.open span:nth-child(3)
+.burger.open span:nth-child(3)
   -webkit-transform: rotate(-45deg)
   -moz-transform: rotate(-45deg)
   -o-transform: rotate(-45deg)
