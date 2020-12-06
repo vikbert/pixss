@@ -1,0 +1,9 @@
+How to build layout with PIXSS:
+    ☐ create header
+        ☐ add new topbar
+        ☐ add logo and navigation links
+    ☐ create main
+        ☐ add hero with heading title
+        ☐ add content text
+    ☐ create footer
+        ☐ add footer content
