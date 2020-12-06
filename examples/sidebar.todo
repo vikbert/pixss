@@ -1,0 +1,9 @@
+Sidebar Demo:
+    ☐ create the element: header
+        ☐ create the topbar
+            burger
+            logo
+            login
+        ☐ create the sidebar with class name "open"
+    ☐ create script to toggle sidebar
+    ☐ create the main wiht hero section
