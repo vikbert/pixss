@@ -27,8 +27,6 @@
 
 ## 📚 Document with [Demo](https://vikbert.github.io/pixss/demo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H60Kx0e5yDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## 🗳 Download with `npm`
 
 ```bash
