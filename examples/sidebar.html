@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/styles/pixss.min.css" />
+    <title>How to build sidebar with pixss</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="topbar space-between">
+        <div class="burger mx-2" id="burger" onclick="toggleOpen()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="mx-2">login</div>
+      </nav>
+      <nav class="sidebar" id="sidebar">
+        sidebar items
+      </nav>
+    </header>
+    <script>
+      function toggleOpen () {
+        const burger = document.getElementById('burger');
+        burger.classList.toggle('open');
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('open');
+      }
+    </script>
+  </body>
+</html>

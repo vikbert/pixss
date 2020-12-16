@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pixss | A lightweight pragmatic CSS Framework</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Xun Zhou" />
+    <!-- favicons snippets -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Pixss provides a lightweight pragmatic setup of styles for a fast and clean starting point."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./static/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./static/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./static/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./static/favicons/site.webmanifest" />
+    <!-- font icomoon stylesheet -->
+    <link rel="stylesheet" href="static/style.css" />
+    <!-- font icomoon stylesheet -->
+    <link rel="stylesheet" href="dist/styles/pixss.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="topbar">
+       <div class="container space-between">
+        <img src="logo.png" alt="logo" width="30">
+        <ul>
+          <li><a href="#">Documents</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+       </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="hero is-primary">
+        <div class="container">
+          <div class="row">
+            <div class="column description text-centered">
+              <div><img style="filter: invert(1); margin-bottom: 16px;" src="logo.png" alt="logo" width="50"></div>
+              <h3>A pragmatic CSS for Minimalist</h3>
+              <h4 class="bold opacity-50">Small but good enough</h4>
+              <div>
+                <a href="dist/styles/pixss.min.css" download>
+                  <button class="is-outlined is-rounded">Download only ~5kb</button>
+                </a>
+                <a href="dist/styles/pixss.min.css" target="_blank">
+                  <button class="is-outlined is-rounded">Copy CSS link</button>
+                </a>
+              </div>
+            </div>
+            <div class="column picture">
+              <img
+                class="hide-mobile"
+                src="rocket.svg"
+                alt="rocket"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-2">
+        <div class="row">
+          <div class="column">
+            <div class="showcase">
+              <div class="showcase-icon"><span class="icon icon-library" /></div>
+              <div class="showcase-content">
+                <h3 class="my-0">Layout</h3>
+                <p>
+                  Design the structure of the webpage with these CSS classes
+                  <code>.topbar</code>
+                  <code>.sidebar</code>
+                  <code>.main</code>
+                  <code>.footer</code>
+                  <code>.container</code>
+                  <code>.hero</code>
+                </p>
+              </div>
+            </div>
+
+            <div class="showcase">
+              <div class="showcase-icon"><span class="icon icon-tree" /></div>
+              <div class="showcase-content">
+                <h3 class="my-0">Navigation</h3>
+                <p>
+                  Navigate the page content or links with classes like:
+                  <code> .topbar </code>
+                  <code>.sidebar</code>
+                  <code>.tabs</code>
+                </p>
+              </div>
+            </div>
+
+            <div class="showcase">
+              <div class="showcase-icon">
+                <span class="icon icon-insert-template" />
+              </div>
+              <div class="showcase-content">
+                <h3 class="my-0">Form</h3>
+                <p>
+                  Essential form controls for minimal and pragmatical use:
+                  <code> button </code>
+                  <code> input </code>
+                  <code> textfield </code>
+                  <code> checkbox </code>
+                  <code> radio </code>
+                  <code> select </code>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="showcase">
+              <div class="showcase-icon"><span class="icon icon-stack" /></div>
+              <div class="showcase-content">
+                <h3 class="my-0">Widget</h3>
+                <p>
+                  Common used UX elements that only require a single CSS class, such as
+                  <code>.card</code>
+                  <code>.popup</code>
+                  <code>.showcase</code>
+                </p>
+              </div>
+            </div>
+
+            <div class="showcase">
+              <div class="showcase-icon"><span class="icon icon-aid-kit" /></div>
+              <div class="showcase-content">
+                <h3 class="my-0">Utils</h3>
+                <p>
+                  Focus on building complex components by use the most common used
+                  utilities:
+                  <code>.is-rounded</code>
+                  <code>.centered-xy</code>
+                  <code>.float-left</code>
+                  <code>.float-right</code>
+                  <code>.mx-*</code>
+                  <code>.my-*</code>
+                  <code>.px-*</code>
+                  <code>.py-*</code>
+                  <code>.is-rounded</code>
+                  <code>.icon-close</code>
+                  <code>.hamburger</code>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container text-centered">
+        PIXSS © 2020
+      </div>
+    </footer>
+  </body>
+</html>
