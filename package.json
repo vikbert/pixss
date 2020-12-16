@@ -1,6 +1,6 @@
 {
     "name": "pixss",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "A minimal css library for quick prototyping",
     "main": "dist/styles/pixss.min.css",
     "devDependencies": {
