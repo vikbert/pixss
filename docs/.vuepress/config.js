@@ -13,7 +13,7 @@ module.exports = {
         "link",
         {
             rel: "stylesheet",
-            href: `https://vikbert.github.io/pixss/demo/styles/pixss.min.css`,
+            href: `https://vikbert.github.io/pixss/build/styles/pixss.min.css`,
         },
       ],
     ],
@@ -25,7 +25,7 @@ module.exports = {
         nav: [
             {
                 text: "Live Demo",
-                link: "https://vikbert.github.io/pixss/demo/",
+                link: "https://vikbert.github.io/pixss/examples/",
             },
             {
                 text: "GitHub",

@@ -1,6 +1,9 @@
 # Layout
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H60Kx0e5yDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VM3IQwZidY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 `pixss` defines the most necessary classes to construct the simple layout with the common used classes easily:
 - `.topbar`
 - `.sidebar`
@@ -40,9 +43,6 @@ function toggleOpen () {
     sidebar.classList.toggle('open');
 } 
 ```
-The live coding demo to build the sidebar with pixss:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5VM3IQwZidY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ## `.main`
 
