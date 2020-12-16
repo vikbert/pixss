@@ -39,8 +39,7 @@
         "start": "sirv dist",
         "preexamples": "copyfiles dist/styles/* examples/",
         "examples": "sirv examples",
-        "prepublish": "npm run build && npm version major",
-        "publish": "npm publish --access=public"
+        "publish": "npm version major && npm publish --access=public"
     },
     "files": [
         "dist/styles"
