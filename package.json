@@ -28,8 +28,6 @@
         "docs:build": "vuepress build docs dist/docs",
         "docs:dev": "vuepress dev docs",
         "copy-ghpages": "copyfiles dist/* dist/**/**/* gh-pages/",
-        "remove-ghpages": "rimraf gh-pages",
-        "publish": "run-s build ",
         "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r dist/styles/*.css",
         "banner": "banner-cli dist/styles/*.css",
         "lint": "prettier-standard --check && sass-lint --verbose --no-exit",
@@ -40,7 +38,9 @@
         "dev": "run-p watch:sass",
         "start": "sirv dist",
         "preexamples": "copyfiles dist/styles/* examples/",
-        "examples": "sirv examples"
+        "examples": "sirv examples",
+        "prepublish": "npm run build && npm version major",
+        "publish": "npm publish --access=public"
     },
     "files": [
         "dist/styles"

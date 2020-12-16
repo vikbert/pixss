@@ -39,7 +39,8 @@ Then use the css files from `node_modules/pixss`
 │       └── pixss.min.css.map
 ```
 
-## Source code
+## Customize the CSS
+The project structure:
 ```bash
 src/
 └── styles
@@ -73,6 +74,21 @@ src/
         ├── _Popup.sass
         └── _Showcase.sass 
 ```
+
+## Start the development
+```bash
+ npm run dev 
+```
+##  Build the source code
+```bash
+ npm run build 
+```
+## Publish to NPM
+```bash
+ npm version major
+ npm publish 
+```
+
 
 
 ## License
