@@ -1,7 +1,7 @@
 <div align="center">
-    <img src="https://vikbert.github.io/pixss/demo/static/app-small.png" alt="" width="45" />
-    <h1 style="font-weight: bolder; color: purple; margin-top: 0px">PIXSS</h1>
-    <h3 style="color: darkgrey; margin: 40px 0">A pragmatical css for Minimalist</h3>
+    <img src="https://vikbert.github.io/pixss/build/static/app-small.png" alt="" width="50" />
+    <h1 style="font-weight: bolder; margin-top: 0px" class="opacity-75">PIXSS</h1>
+    <h3 class="opacity-50">A pragmatical css for Minimalist</h3>
 </div>
 
 <div align="center">
@@ -39,6 +39,42 @@ Then use the css files from `node_modules/pixss`
 │       └── pixss.min.css.map
 ```
 
+## Source code
+```bash
+src/
+└── styles
+    ├── base
+    │   ├── _Base.sass
+    │   ├── _Breakpoint.sass
+    │   ├── _Color.sass
+    │   ├── _Elements.sass
+    │   ├── _Reset.sass
+    │   └── _Typography.sass
+    ├── form
+    │   ├── _Button.sass
+    │   ├── _Checkbox.sass
+    │   └── _Form.sass
+    ├── layout
+    │   ├── _Container.sass
+    │   ├── _Footer.sass
+    │   ├── _Grid.sass
+    │   └── _Hero.sass
+    ├── navigation
+    │   ├── _Sidebar.sass
+    │   ├── _Tabs.sass
+    │   └── _Topbar.sass
+    ├── pixss.sass
+    ├── utils
+    │   ├── _Icons.sass
+    │   ├── _Spacing.sass
+    │   └── _Utility.sass
+    └── widget
+        ├── _Card.sass
+        ├── _Popup.sass
+        └── _Showcase.sass 
+```
+
+
 ## License
 
-MIT © vikbert
+MIT © [vikbert](https://vikbert.github.io/)
