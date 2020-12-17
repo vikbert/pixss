@@ -11,8 +11,6 @@
 - `.container`
 - `.footer`
 
-<img src="images/layout.png" width="566">
-
 ## `.topbar`
 define the Topbar with `fixed` position in page header. By using utility class `space-between` the child nodes can be displayed like the following example: the `logo` element will be positioned on the left, and the `navigation` elements will be showed on the right side.
 
@@ -25,8 +23,11 @@ define the Topbar with `fixed` position in page header. By using utility class `
   </div>
 ```
 
-## `.sidebar` & `is-open`
+## `.sidebar`
 define the sidebar with `fixed` posistion on the left side of page. Sidebar is invisible as default, by using `.open` can be set to visible.
+
+[youtube: sidebar coding demo](https://www.youtube.com/watch?v=5VM3IQwZidY)
+[Demo page with sidebar](https://vikbert.github.io/pixss/examples/sidebar.html)
 
 ```html
 <nav class="sidebar open" id="sidebar">
@@ -45,9 +46,25 @@ function toggleOpen () {
 ```
 
 ## `.main`
+class `.main` defines the main container for the essential page content.
+```html
+<main class="main"></main>
+```
 
 ## `.footer`
+class `.footer` defines the footer section, that has fixed position on the bottom of the page.
+```html
+<footer class="footer"></footer>
+```
 
 ## `.container`
+class `.container` is the placeholder for the page content, that has predefined position, margin and padding values.
+```html
+<div class="container"></div>
+```
 
 ## `.hero`
+class `.hero` is used always for the definition of `showcase` page block. It can be highlighted by using the classes, such as `.is-primary`, `.is-secondary`, `.is-info`, `.is-warning`, `.is-success`, `.is-danger`.
+```html
+<div class="hero is-primary"></div>
+```

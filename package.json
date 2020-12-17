@@ -1,6 +1,6 @@
 {
     "name": "pixss",
-    "version": "6.0.0",
+    "version": "2.0.0",
     "description": "A minimal css library for quick prototyping",
     "main": "dist/styles/pixss.min.css",
     "devDependencies": {
@@ -38,8 +38,7 @@
         "dev": "run-p watch:sass",
         "start": "sirv dist",
         "preexamples": "copyfiles dist/styles/* examples/",
-        "examples": "sirv examples",
-        "publish": "npm version major && npm publish --access=public"
+        "examples": "sirv examples"
     },
     "files": [
         "dist/styles"

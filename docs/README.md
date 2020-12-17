@@ -84,8 +84,10 @@ src/
  npm run build 
 ```
 ## Publish to NPM
+> build the source code and push the changes to the repository, then publish to NPM
+> 
 ```bash
- npm version major
+ npm version minor
  npm publish 
 ```
 
