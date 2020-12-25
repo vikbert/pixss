@@ -3,27 +3,140 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../dist/styles/pixss.min.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="dist/styles/pixss.min.css" />
+    <title>Pixss: form demo</title>
+    <style>
+      .gender {
+        display: flex;
+        padding-top: 10px;
+      }
+      .gender label {
+        padding-right: 16px;
+      }
+    </style>
   </head>
   <body>
-    <div class="overlay">
-      <div class="popup">
-        <span class="icon-close"></span>
-        <div class="title">
-          <h4>popup title</h4>
-        </div>
-        <div class="content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quod ipsa,
-          tempore corporis iste officiis alias? Earum autem eum doloribus
-          necessitatibus quo nemo distinctio atque facere officia. Enim, sequi
-          doloremque.
-        </div>
-        <div class="action">
-          <button class="is-secondary is-cleared">cancel</button>
-          <button class="is-primary is-rounded">submit</button>
+    <main class="main">
+      <div class="container py-2">
+        <div class="card">
+          <div class="card-title text-centered">
+            <h3 class="opacity-50">Form Demo</h3>
+          </div>
+          <div class="card-content">
+            <form action="#">
+              <div class="row">
+                <div class="column">
+                  <fieldset>
+                    <label for="">Favorite Color </label>
+                    <input type="color" value="#7b2083" />
+                  </div>
+                </fieldset>
+                <div class="column">
+                  <fieldset>
+                    <label for="">Birthday </label>
+                    <input type="date" value="2020-12-25" />
+                  </fieldset>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <fieldset>
+                    <label for="">First Name </label>
+                    <input type="text" placeholder="enter your first name" />
+                  </fieldset>
+                </div>
+                <div class="column">
+                  <fieldset>
+                    <label for="">Second Name </label>
+                    <input type="text" placeholder="enter your second name" />
+                  </fieldset>
+                  </div>
+                </div>
+
+              <fieldset>
+                <label>Email Input </label>
+                <input
+                  type="email"
+                  placeholder="enter your email"
+                  value="@gmail.com"
+                />
+              </fieldset>
+
+              <div class="row">
+                <div class="column">
+                  <fieldset>
+                    <div>Gender</div>
+                    <div class="gender">
+                      <label class="radio">
+                        Male
+                        <input type="radio" name="gender" value="male" checked/>
+                        <span></span>
+                      </label>
+                      <label class="radio">
+                        female
+                        <input type="radio" name="gender" value="female" />
+                        <span></span>
+                      </label>
+                    </fieldset>
+                  </div>
+                  <div class="column">
+                    <fieldset>
+                    <div>Favorite browser</div>
+                    <div class="gender">
+                      <label class="checkbox">
+                        Firefox
+                        <input type="checkbox" name="browser" value="firefox" />
+                        <span></span>
+                      </label>
+                      <label class="checkbox">
+                        Chrome
+                        <input type="checkbox" name="brower" value="chrome" checked/>
+                        <span></span>
+                      </label>
+                      <label class="checkbox">
+                        Safari
+                        <input type="checkbox" name="browser" value="safari" checked/>
+                        <span></span>
+                      </label>
+                    </div>
+                  </fieldset>
+                  </div>
+                </div>
+
+              <fieldset>
+                <label for="">About me text</label>
+                <textarea
+                  name="about-me"
+                  id="aboutme"
+                  placeholder="enter free text"
+                ></textarea>
+              </fieldset>
+
+              <fieldset>
+                <label for="">Password</label>
+                <input type="password">
+              </fieldset>
+
+              <fieldset>
+                <label class="checkbox small">
+                    Indem du auf "Submit" klickst, stimmst du unseren Nutzungsbedingungen zu. In unserer Datenrichtlinie erfährst du, wie wir deine Daten erfassen, verwenden und teilen. Unsere Cookie-Richtlinie erklärt, wie wir Cookies und ähnliche Technologien verwenden. Facebook schickt dir eventuell Benachrichtigungen per SMS, die du jederzeit abbestellen kannst.
+                  <input type="checkbox" checked>
+                  <span></span>
+                </label>
+              </fieldset>
+
+              <fieldset class="text-centered">
+                <input type="submit" class="is-primary is-rounded" value="submit" />
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
+    <footer class="footer">
+      <div class="container text-centered">
+        PIXSS ® 2020
+      </div>
+    </footer>
   </body>
 </html>

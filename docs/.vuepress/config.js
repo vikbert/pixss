@@ -9,13 +9,6 @@ module.exports = {
                 href: `https://fonts.googleapis.com/css?family=Major+Mono+Display`,
             },
       ],
-      [
-        "link",
-        {
-            rel: "stylesheet",
-            href: `https://vikbert.github.io/pixss/build/styles/pixss.min.css`,
-        },
-      ],
     ],
     plugins: [],
     base: "/pixss/",
