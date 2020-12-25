@@ -1,5 +1,5 @@
 /*!
-  * Pixss v1.2.6
+  * Pixss v2.0.0
   * https://vikbert.github.io/pixss
   *
   * Copyright (c) 2020 Xun Zhou
@@ -274,6 +274,10 @@ h5 {
 h6 {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+
+.small {
+  font-size: 1.2rem;
 }
 
 .main {
@@ -617,6 +621,7 @@ legend {
 fieldset {
   border-width: 0;
   padding: 0;
+  margin: 1rem 0;
 }
 
 input[type='checkbox'],
@@ -1141,10 +1146,6 @@ dd,
 dt,
 li {
   margin-bottom: 1.0rem;
-}
-
-fieldset {
-  margin: 1.5rem 0;
 }
 
 blockquote,

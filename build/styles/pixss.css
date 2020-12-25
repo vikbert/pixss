@@ -276,6 +276,10 @@ h6 {
   line-height: 1.4;
 }
 
+.small {
+  font-size: 1.2rem;
+}
+
 .main {
   margin-top: 5rem;
   min-height: 80vh;
@@ -617,6 +621,7 @@ legend {
 fieldset {
   border-width: 0;
   padding: 0;
+  margin: 1rem 0;
 }
 
 input[type='checkbox'],
@@ -1141,10 +1146,6 @@ dd,
 dt,
 li {
   margin-bottom: 1.0rem;
-}
-
-fieldset {
-  margin: 1.5rem 0;
 }
 
 blockquote,
