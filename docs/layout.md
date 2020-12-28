@@ -1,12 +1,8 @@
-# Layout [→ Demo ](https://vikbert.github.io/pixss/examples/index.html)
+# Layout
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H60Kx0e5yDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5VM3IQwZidY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 `pixss` defines the most necessary classes to construct the simple layout with the common used classes easily:
 - `.topbar`
-- `.sidebar`
 - `.main`
 - `.container`
 - `.footer`
@@ -23,28 +19,6 @@ define the Topbar with `fixed` position in page header. By using utility class `
         <div>navigation</div>
     </div>
   </div>
-```
-
-## `.sidebar`
-define the sidebar with `fixed` posistion on the left side of page. Sidebar is invisible as default, by using `.open` can be set to visible.
-
-[youtube: sidebar coding demo](https://www.youtube.com/watch?v=5VM3IQwZidY)
-[Demo page with sidebar](https://vikbert.github.io/pixss/examples/sidebar.html)
-
-```html
-<nav class="sidebar open" id="sidebar">
-    the customized sidebar items
-</nav>
-```
-Use any pure Javascript or framework to toggle the class name `open`
-```js
-function toggleOpen () {
-    const burger = document.getElementById('burger');
-    burger.classList.toggle('open');
-
-    const sidebar = document.getElementById('sidebar');
-    sidebar.classList.toggle('open');
-} 
 ```
 
 ## `.main`
