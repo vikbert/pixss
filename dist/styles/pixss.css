@@ -1043,10 +1043,6 @@ input[type="checkbox"], input[type="radio"] {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-.outlined {
-  outline: 1px solid red;
-}
-
 .text-centered {
   text-align: center !important;
 }
@@ -1089,6 +1085,46 @@ input[type="checkbox"], input[type="radio"] {
 
 .debug div {
   outline: 1px solid red;
+}
+
+.mx-1 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-2 {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.px-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-2 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .burger {
@@ -1160,46 +1196,6 @@ pre,
 table,
 ul {
   margin-bottom: 2.5rem;
-}
-
-.mx-1 {
-  margin-right: 1rem !important;
-  margin-left: 1rem !important;
-}
-
-.my-1 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-}
-
-.mx-2 {
-  margin-right: 2rem !important;
-  margin-left: 2rem !important;
-}
-
-.my-2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.px-1 {
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
-}
-
-.py-1 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-}
-
-.px-2 {
-  padding-right: 2rem !important;
-  padding-left: 2rem !important;
-}
-
-.py-2 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=pixss.css.map */
