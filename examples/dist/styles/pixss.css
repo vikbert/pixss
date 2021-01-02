@@ -920,7 +920,7 @@ input[type="checkbox"], input[type="radio"] {
   visibility: hidden;
 }
 
-.overlay.is-open {
+.overlay.open {
   visibility: visible;
 }
 
@@ -971,8 +971,9 @@ input[type="checkbox"], input[type="radio"] {
   overflow: hidden;
 }
 
-.card-image {
-  border-radius: 0.4rem;
+.card-image img {
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
 }
 
 .card-content {
@@ -987,21 +988,20 @@ input[type="checkbox"], input[type="radio"] {
   grid-template-columns: 70px 1fr;
 }
 
-.showcase h3 {
-  font-weight: bold;
-  color: #555454;
-  margin-bottom: 10px;
-}
-
-.showcase-icon {
+.showcase .icon {
   padding: 4px 0 0 0;
   font-size: 35px;
   line-height: 40px;
 }
 
-.showcase-content {
+.showcase .content {
   width: 95%;
-  /* text-align: justify; */
+}
+
+.showcase .content h3 {
+  font-weight: bold;
+  color: #555454;
+  margin-bottom: 10px;
 }
 
 .centered-xy {

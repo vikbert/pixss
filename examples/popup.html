@@ -3,12 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../dist/styles/pixss.min.css" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="http://127.0.0.1:5500/dist/styles/pixss.min.css"
+    />
   </head>
   <body>
-    <div class="overlay">
-      <div class="popup">
+    <main class="main">
+      <div class="container centered-xy">
+        <button class="is-outlined" onclick="toggleDialog()">
+          open dialog
+        </button>
+      </div>
+    </main>
+    <div class="overlay" id="dialog">
+      <div class="popup full-width">
         <span class="icon-close"></span>
         <div class="title">
           <h4>popup title</h4>
@@ -20,10 +29,18 @@
           doloremque.
         </div>
         <div class="action">
-          <button class="is-secondary is-cleared">cancel</button>
+          <button class="is-secondary is-cleared" onclick="toggleDialog()">
+            cancel
+          </button>
           <button class="is-primary is-rounded">submit</button>
         </div>
       </div>
     </div>
+    <script>
+      const dialog = document.getElementById("dialog");
+      function toggleDialog() {
+        dialog.classList.toggle("open");
+      }
+    </script>
   </body>
 </html>
