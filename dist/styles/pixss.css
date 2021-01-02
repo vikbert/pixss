@@ -2,7 +2,7 @@
   * Pixss v2.0.0
   * https://vikbert.github.io/pixss
   *
-  * Copyright (c) 2020 Xun Zhou
+  * Copyright (c) 2021 Xun Zhou
   * Licensed under the MIT license
  */
 
@@ -969,6 +969,11 @@ input[type="checkbox"], input[type="radio"] {
 .card-title {
   padding: 2rem  2rem 0;
   overflow: hidden;
+}
+
+.card-image img {
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
 }
 
 .card-content {
