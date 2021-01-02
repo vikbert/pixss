@@ -966,17 +966,17 @@ input[type="checkbox"], input[type="radio"] {
   margin: 1rem 0;
 }
 
-.card-title {
+.card .title {
   padding: 2rem  2rem 0;
   overflow: hidden;
 }
 
-.card-image img {
+.card .figure img {
   border-top-left-radius: 0.4rem;
   border-top-right-radius: 0.4rem;
 }
 
-.card-content {
+.card .content {
   padding: 2rem;
   min-width: 8rem;
   overflow: scroll;
@@ -988,7 +988,7 @@ input[type="checkbox"], input[type="radio"] {
   grid-template-columns: 70px 1fr;
 }
 
-.showcase .icon {
+.showcase .figure {
   padding: 4px 0 0 0;
   font-size: 35px;
   line-height: 40px;
