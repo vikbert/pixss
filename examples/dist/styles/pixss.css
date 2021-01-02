@@ -920,7 +920,7 @@ input[type="checkbox"], input[type="radio"] {
   visibility: hidden;
 }
 
-.overlay.is-open {
+.overlay.open {
   visibility: visible;
 }
 
@@ -971,8 +971,9 @@ input[type="checkbox"], input[type="radio"] {
   overflow: hidden;
 }
 
-.card-image {
-  border-radius: 0.4rem;
+.card-image img {
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
 }
 
 .card-content {

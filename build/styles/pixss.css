@@ -920,7 +920,7 @@ input[type="checkbox"], input[type="radio"] {
   visibility: hidden;
 }
 
-.overlay.is-open {
+.overlay.open {
   visibility: visible;
 }
 
