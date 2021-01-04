@@ -1017,11 +1017,6 @@ input[type="checkbox"], input[type="radio"] {
   float: right;
 }
 
-.flex-2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .space-between {
   display: flex;
   justify-content: space-between;
