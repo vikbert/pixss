@@ -25,9 +25,11 @@
   <img style="width: 800px;" src="sample.png">
 </div>
 
-## 📚 Document with [Demo](https://vikbert.github.io/pixss/demo)
+## 📚 Document
 
-## 🗳 Download with `npm`
+[Document with live Demo](https://vikbert.github.io/pixss/examples/)
+
+## 🗳 install via `npm`
 
 ```bash
  npm install pixss
@@ -43,11 +45,6 @@ Then use the css files from `node_modules/pixss`
 │       ├── pixss.min.css
 │       └── pixss.min.css.map
 ```
-
-## 🗳 Download from `Homepage`
-
-click on the download button on homepage.
-[pixss home](<[https://link](https://vikbert.github.io/pixss/)>)
 
 
 ## License
