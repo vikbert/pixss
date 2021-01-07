@@ -24,6 +24,10 @@ module.exports = {
                 text: "GitHub",
                 link: "https://github.com/vikbert/pixss",
             },
+            {
+                text: "About Me",
+                link: "https://vikbert.github.io/",
+            },
         ],
         sidebar: [
             ["/", "HOME"],

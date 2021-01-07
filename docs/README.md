@@ -22,6 +22,11 @@
 
 ---
 
+<div style="text-align: center">
+  <h3>🎯 Small but good enough 🎯 </h3>
+  <span>get the things done faster with <code>pixss</code></span>
+</div>
+
 ## Install
 
 ```bash
