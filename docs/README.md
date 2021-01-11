@@ -44,8 +44,14 @@ Then use the css files from `node_modules/pixss`
 │       └── pixss.min.css.map
 ```
 
-## Customize the CSS
-The project structure:
+## Customize the SCSS
+`pixss` is simple to be customized by changing the the variables in the following `sass` files:
+
+- _Base.sass
+- _Breakpoint.sass
+- _Color.sass
+- _Typography.sass
+
 ```bash
 src/
 └── styles
