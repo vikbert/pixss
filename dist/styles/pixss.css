@@ -1174,6 +1174,10 @@ input[type="checkbox"], input[type="radio"] {
   left: 0;
 }
 
+.emoji {
+  font-size: 3rem;
+}
+
 .button,
 button,
 dd,
