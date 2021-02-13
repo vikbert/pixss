@@ -822,6 +822,14 @@ input[type='submit'].is-cleared[disabled]:hover {
   color: #7b2083;
 }
 
+.button.is-warning:hover,
+button.is-warning:hover,
+input[type='button'].is-warning:hover,
+input[type='reset'].is-warning:hover,
+input[type='submit'].is-warning:hover {
+  color: #363636;
+}
+
 input[type="checkbox"], input[type="radio"] {
   position: absolute;
   opacity: 0;
