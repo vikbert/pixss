@@ -1,5 +1,5 @@
 /*!
-  * Pixss v2.0.0
+  * Pixss v2.1.0
   * https://vikbert.github.io/pixss
   *
   * Copyright (c) 2021 Xun Zhou
@@ -959,7 +959,7 @@ input[type="checkbox"], input[type="radio"] {
 
 .card {
   background-color: #ffffff;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
   border-radius: 0.4rem;
   margin: 1rem 0;
 }
