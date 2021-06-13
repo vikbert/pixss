@@ -1,7 +1,10 @@
 <div align="center">
   <img src="app-small.png" width="50px" alt="pixss" />
   <h3>A pragmatic CSS for Minimalist</h3>
-  <p>Pixss provides a minimal setup of styles for a programatic and clean starting point.  <strong>Only < 4 kb gzipped</strong>! It is specially designed for better performance and higher productivity. </p>
+  <p>Pixss provides a minimal setup of styles for a programatic and clean starting point.  <strong>Only < 4 kb gzipped</strong>! It is specially designed for better performance and higher productivity.</p>
+
+  <p>It is an absolute pragmatic alternative to many large CSS framework, if you need just the lightweight and clean design without learning houdreds of utility classes.</p>
+  
 
   <p>
     <a href="#">
