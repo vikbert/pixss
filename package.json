@@ -6,7 +6,7 @@
     "devDependencies": {
         "autoprefixer": "^9.8.6",
         "banner-cli": "^0.14.1",
-        "browser-sync": "^2.26.14",
+        "browser-sync": "^3.0.4",
         "classname": "0.0.0",
         "copyfiles": "^2.4.1",
         "husky": "^4.3.8",
